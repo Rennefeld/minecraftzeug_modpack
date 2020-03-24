@@ -1,0 +1,1258 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: xQtEx+q3KD0Aqe939iwBkHwzPdVGf
+ Sfi2OEyV7M+aBA=
+SHA-256-Digest-Manifest: /x26EmM2BWEzZDm1sm49F8+t5WP6+X3MLmrnKOMzlXI=
+Created-By: 1.8.0_212 (Oracle Corporation)
+
+Name: codechicken/lib/render/block/CCBlockRendererDispatcher.class
+SHA-256-Digest: dUn7t5CjoUqXdaoUWjUYgprneZO3PnEDJ8NfyX7Png8=
+
+Name: codechicken/lib/vec/uv/UVRotation.class
+SHA-256-Digest: /0OsToXwVOA2YEojBYhLOenQl01qtJ8JkRJKXl4uxwk=
+
+Name: codechicken/lib/recipe/OreExistsConditionalFactory.class
+SHA-256-Digest: LqOBXA5pyyeS8UbE2z98n6dsFSC1lmQxpqsuODy9/JE=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedPropertyBase.cla
+ ss
+SHA-256-Digest: CeyNPaJfIKe9o0CQqNtv/u/hyVAUlbUb/ud6XZhq6Gg=
+
+Name: codechicken/lib/vec/Rotation$3.class
+SHA-256-Digest: y9QXrqBhVSfEJuNwTt2yxLNLFnfAzL8Ve7vb+yD6ElE=
+
+Name: codechicken/lib/inventory/container/SlotHandleClicks.class
+SHA-256-Digest: tWt2rdysPoruxGO6EFA+B7TLJsSTPGFfa8JdisaVtE0=
+
+Name: codechicken/lib/vec/Cuboid6$1.class
+SHA-256-Digest: 8JD7gfjoxqFw0Y8WP8yISq8Y3pT7rqLr0CbUlBCq0bo=
+
+Name: codechicken/lib/render/shader/ShaderProgram$UniformEntry$IntUnif
+ ormEntry.class
+SHA-256-Digest: NLJy1bPytgkJA4eWp4EsGyycQr81aZ82xzA2p8NF4bU=
+
+Name: codechicken/lib/render/item/map/IMapRenderer.class
+SHA-256-Digest: A4ImwYP3Opm71vsZ63dbmoXn9ZiublQ0w6x9hN1Lo6A=
+
+Name: codechicken/lib/internal/network/PacketDispatcher.class
+SHA-256-Digest: JSbFeJu3ntG1aI5wh2Ko7ssv+FKP47dQXUklYsWf+C8=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedFluidStackProper
+ ty.class
+SHA-256-Digest: myBszejyBYxRciPP/pcrxUGe6F9qyaKqSubL4Aj9xBA=
+
+Name: codechicken/lib/lighting/SimpleBrightnessModel.class
+SHA-256-Digest: +V94t1PLZN2g1I3nD+nXrNV9fV2cevIyfIN1RANppbQ=
+
+Name: codechicken/lib/render/pipeline/attribute/ColourAttribute.class
+SHA-256-Digest: +KsbPIGe6mSE6Px7mDSYAXpRxCQ9I1Y+ZwXhuEGH9Kc=
+
+Name: codechicken/lib/vec/uv/UVTranslation.class
+SHA-256-Digest: 1GcloqO4HkitLc4wsvQlLf8Ba2u6JHbeAYVoCIhJquI=
+
+Name: codechicken/lib/configuration/ConfigSyncManager$SyncState.class
+SHA-256-Digest: tall4VypjY47UEDI4ApCeUTSKrE1JLuQY5gorckieA4=
+
+Name: codechicken/lib/render/state/GlStateTracker$State$3.class
+SHA-256-Digest: VUPuxTkddBRtaMUILZFmdUG2EhcKfLON0wD2OQHLiK4=
+
+Name: codechicken/lib/internal/proxy/ProxyClient.class
+SHA-256-Digest: KIXWvcwHQ2ufSUtvUnP38VMdLxvo3jErvyjxSXgJXnM=
+
+Name: META-INF/fml_cache_class_versions.json
+SHA-256-Digest: C7nrIrC4QbDBUmR0vAr0fagLITZ19goBKhnoQpq7OJM=
+
+Name: codechicken/lib/config/DefaultingConfigFile.class
+SHA-256-Digest: gFNPQhejnAjk0fMAkbZ9jKFy0/l21mEE2mIbS7d7ZE4=
+
+Name: codechicken/lib/vec/Rotation$8.class
+SHA-256-Digest: t9xBuPKpIdQcp1+cxab88VqyOGXzUXVk7E+/mTj9924=
+
+Name: codechicken/lib/inventory/container/IntegerSync.class
+SHA-256-Digest: gr9cshw3lsA8UsHfVS40yYRYLK9UuMV12Ia8wLiDOBQ=
+
+Name: codechicken/lib/vec/Matrix4.class
+SHA-256-Digest: s+0BJ+C8yVEkrP9//SLORvPMmKs6nO6mA5Tf2Uu8JAE=
+
+Name: assets/codechickenlib/recipes/_factories.json
+SHA-256-Digest: rWSitx2nXSy+LgvB9OWVKjGsJ2212YtafsNHeWIzmTE=
+
+Name: codechicken/lib/lighting/LightModel.class
+SHA-256-Digest: +LxpFukhALA2KANyKpxOBwo8QprcsbP0iaXzQEDPMp0=
+
+Name: codechicken/lib/render/consumer/CCRSConsumer$1.class
+SHA-256-Digest: xQf+nErTBond99NsY9qgCU3aXiYA1/2S88unfaFWV+A=
+
+Name: codechicken/lib/util/RotationUtils.class
+SHA-256-Digest: +q9Ja2Q33xD50EWApeAYfOkdS6GH2E7c2rB1wQL7v5Y=
+
+Name: codechicken/lib/render/pipeline/CCRenderPipeline$PipelineBuilder
+ .class
+SHA-256-Digest: StLCDQEsi+nttUiHhQ2YXlV4CiiPDsHZYs9IP0HPJjI=
+
+Name: codechicken/lib/vec/SwapYZ.class
+SHA-256-Digest: Px47pD4r6JY/Nfy2AS9GRRj4CS2S2KPAWmd/0BkwBN4=
+
+Name: codechicken/lib/model/bakery/key/IItemStackKeyGenerator.class
+SHA-256-Digest: A3/pq9mA8774d2s5tt0QZYHqFVvLDw9Type5LJKv7kg=
+
+Name: codechicken/lib/vec/uv/ScaledIconTransformation.class
+SHA-256-Digest: SSsAKGVzMDVmLvGCugOGcjuwVUPKgm9xfzxaSRe7JGc=
+
+Name: codechicken/lib/internal/command/client/ModelLocationInfoCommand
+ .class
+SHA-256-Digest: VCaUICd1eEIfLDQhSYPQ/VyiQ+DJ21d9/XX3g7QavsE=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedMapProperty$IMap
+ StringGenerator.class
+SHA-256-Digest: rQf+PrOGP34l0fJQ4vF4IKZyXv3oHkp9ny4I2WfMjIg=
+
+Name: codechicken/lib/configuration/ConfigSyncManager.class
+SHA-256-Digest: a85UH7piPURJ+D8UFxNtsVKYVay/O0+EZdc0FEJkXiA=
+
+Name: codechicken/lib/model/bakedmodels/AbstractBakedPropertiesModel$1
+ .class
+SHA-256-Digest: zlPH0XHvVY9hHrk6GN+FT0pcKG5gsQ/kQrhpEsXI4ek=
+
+Name: codechicken/lib/configuration/IConfigTag$TagType.class
+SHA-256-Digest: Geezz6y3ww7jLTFpFMo4b/VKmiHP4vk3QZN3vLTiNKI=
+
+Name: codechicken/lib/vec/Vertex5.class
+SHA-256-Digest: 3Ln/PPhYoF2i1Bw3GodmJnddjOIKmB8p9wpnOC7bC1E=
+
+Name: codechicken/lib/data/MCDataUtils.class
+SHA-256-Digest: XA5pVF0a1bb5aAWplgt5bIozDTs4xoU/yTUqxpi9gho=
+
+Name: codechicken/lib/texture/TextureUtils.class
+SHA-256-Digest: GJU/S9kk7e+O6XEQBmSUcALdc7Df01PC48wYEXm1JU0=
+
+Name: codechicken/lib/configuration/IConfigTag$TagType$2.class
+SHA-256-Digest: w1hbylE7xBx9iVIQi7xpH27iOUz4IoxGgFodZ9bY3Vg=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedEnumFacingProper
+ ty.class
+SHA-256-Digest: LLcm5iLjE2glyTQZAww/AkP5le4IkTbksIuk0mJGMi4=
+
+Name: codechicken/lib/gui/ClickCounter$ClickCount.class
+SHA-256-Digest: +iwpDI/g7Il2y7wTj5K+VOGEHxwM6k6ZK0uTPHlAv/4=
+
+Name: codechicken/lib/util/VertexDataUtils.class
+SHA-256-Digest: gIJfcYZ7E1Z3Tz8XtwYDB1t5UIpyqq1QLLZ/8ZIy5b8=
+
+Name: codechicken/lib/data/MCDataOutputStream.class
+SHA-256-Digest: 08Wo8kT6PrcAC37g2s0BDP+wmpwSf39NsxvT+oB2HfU=
+
+Name: codechicken/lib/gui/GuiCCTextField.class
+SHA-256-Digest: kCGEier7NgVvC7faBbKmoQrL/vSM8hwKgtWmofTg0lI=
+
+Name: codechicken/lib/util/ThrowingRunnable.class
+SHA-256-Digest: ifiPu9D9wWmu/Wa1MxO5EG/kE3Ha4xAcRei3dcnX004=
+
+Name: codechicken/lib/render/buffer/BakingVertexBuffer$1.class
+SHA-256-Digest: tFrBTOPF7qWEoNRiuMi3GMTZFmn5sdIzFge0lCZCtwE=
+
+Name: codechicken/lib/model/bakery/BlockBakeryProperties.class
+SHA-256-Digest: UAHgR1bEyU9+mO5OLBSLnkCRU4XXC8upAc1HqOpL9w4=
+
+Name: codechicken/lib/model/loader/blockstate/CCVariant.class
+SHA-256-Digest: FNXTVOhec6Eh+ROiVKBt2I7L25xRBI611FA04OV5TxE=
+
+Name: codechicken/lib/render/pipeline/CCRenderPipeline$1.class
+SHA-256-Digest: cMPngRcpWFPFV8GDDrqZYTIcGLX8BqxUQP80lKjVN3Y=
+
+Name: codechicken/lib/vec/ITransformation.class
+SHA-256-Digest: Ju0fNHLILo34rG4lvzn7J8nHVgnKHg8FYSjv134xQQY=
+
+Name: codechicken/lib/gui/GuiScrollSlot.class
+SHA-256-Digest: /+E100/fevfg7lAZdKLhZMI7loNpLJpG4yN7Hj0xjUQ=
+
+Name: codechicken/lib/model/loader/blockstate/CCBlockStateLoader$Varia
+ ntLoader.class
+SHA-256-Digest: Has9B4x801OJsRV9/jvglZlBfSg8/1nK+U6iF/3QjYA=
+
+Name: codechicken/lib/render/CCRenderEventHandler.class
+SHA-256-Digest: CewQ+dLtzDOeUuMAsYjUw8DfG1Cc9FehqiWatZ86nNM=
+
+Name: codechicken/lib/configuration/ConfigTag$1.class
+SHA-256-Digest: weT0J9s/g8TRqECrfS9wNqQMKXnhG3nIerVEedVgLJ8=
+
+Name: codechicken/lib/world/ChunkExtension.class
+SHA-256-Digest: 8FXP4z0lDPnryJhgVo6mPmB/1NnWqzn73zfETQR8pSk=
+
+Name: codechicken/lib/model/bakedmodels/PerspectiveAwareOverrideModel.
+ class
+SHA-256-Digest: MXk3mCUE+DY1l35542Zzh8SHkHWJbTyqJw8OCBlDsUQ=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedMapProperty.clas
+ s
+SHA-256-Digest: 6fRc8AAJitpUTLFc1ONwLsec29QoGLxD3siusL9DhzA=
+
+Name: codechicken/lib/util/ItemUtils.class
+SHA-256-Digest: iVDfny8znw6Tc0OISxldJJqB5VGZU2lgsZnIzo6wPNU=
+
+Name: codechicken/lib/gui/SimpleCreativeTab.class
+SHA-256-Digest: 9WZjRt0zUqnmzvnlWxpJC3MqaxQJM4duTY7TcY17C50=
+
+Name: codechicken/lib/render/shader/ShaderObject$ShaderType.class
+SHA-256-Digest: b7RL1O98yXc08NEimQzLXPSRRegeKFV7yV1gyYtXxbk=
+
+Name: codechicken/lib/render/state/GlStateTracker$State.class
+SHA-256-Digest: jK2OFQE+pTKUMM2kdf5rYGuGxIwgqD7tWDkf0WMCn+k=
+
+Name: codechicken/lib/colour/ColourRGBA.class
+SHA-256-Digest: tKx2eAtjm2W1EFgI2t58Tqo8XTj/z/DOPDBU/scxUjE=
+
+Name: codechicken/lib/packet/PacketCustom$ClientInboundHandler.class
+SHA-256-Digest: D3/pvKMA4+8qG7gt9/a+xh3rodX7yB6B9dTfWO9iMpQ=
+
+Name: codechicken/lib/gui/GuiCCButton.class
+SHA-256-Digest: YUPr798bAlY0UKUGkpfEZifJJwq5/q5z+Vo+2oNgLUs=
+
+Name: codechicken/lib/gui/GuiScreenWidget.class
+SHA-256-Digest: bxqfQd6sdrXl9qOhV5svx829blccVC2iNSPpytutcm8=
+
+Name: codechicken/lib/inventory/container/SlotDummyOutput.class
+SHA-256-Digest: v18gsGTytsCT+23eEiiw7BhwO3JoIzoHP+CIgi+p8o0=
+
+Name: codechicken/lib/model/loader/cube/CCCubeLoader.class
+SHA-256-Digest: UOLFAwqJ3Nl485BpX0+F0A0BomJVTNIfJLItC6qo/zk=
+
+Name: codechicken/lib/vec/VariableTransformation.class
+SHA-256-Digest: 1BhZctEWB0H0ZVxdovTufJ121ZjEeTVYZjbfcnnfGPQ=
+
+Name: codechicken/lib/data/MCDataOutputWrapper.class
+SHA-256-Digest: SHaq7EFYYcDp3pYxRzCiLBr0NAn0azndldaXn9yp8oI=
+
+Name: codechicken/lib/command/ClientCommandBase.class
+SHA-256-Digest: I6pEDzgbseSFufXBM5qVLisRG2L36bpHZghsLxxP2n8=
+
+Name: codechicken/lib/model/bakedmodels/PerspectiveAwareMultiModel.cla
+ ss
+SHA-256-Digest: A84PWmoGNeABNvQoifSy9J7EhNoDnE2UDCu0K07pN90=
+
+Name: codechicken/lib/texture/SpriteSheetManager$1.class
+SHA-256-Digest: QD1pCQQrKElSyiWI2BtrJ8phaf/UVr80QXuzEd2ijsQ=
+
+Name: codechicken/lib/util/VectorUtils.class
+SHA-256-Digest: 4LESiYKJ2hhoJoVQYOg0TzjCzeCL4o/pEkJATq9VwLs=
+
+Name: codechicken/lib/lighting/LightModel$Light.class
+SHA-256-Digest: LAOEjx9S04FqViF517ceXlQk96iJd7BpkOPdW7Ktlgo=
+
+Name: codechicken/lib/internal/command/client/CCLClientCommand.class
+SHA-256-Digest: wP7Pw5D+Z6OptjieAePVRVniQOAflugPi52NloUbbtc=
+
+Name: codechicken/lib/recipe/AbstractForgeConfigConditionalFactory.cla
+ ss
+SHA-256-Digest: vHOa1mYqRGC8mVG0Xxjmra//Bdd/IGF+4d4oqm1sBKE=
+
+Name: codechicken/lib/texture/SpriteSheetManager.class
+SHA-256-Digest: F9PK5PAt5eCpcxpjJcrKgURnzSJRHD2Of/WIaDSQVT8=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedIntegerProperty.
+ class
+SHA-256-Digest: afVk38JPB40CWj+IE5m9UD0tX89jp2JmINHpZlrfuHw=
+
+Name: codechicken/lib/texture/IItemBlockTextureProvider.class
+SHA-256-Digest: W7Q0fRC9IcfzVDjkXbimvKqgZ6Pih2j53VkvpYc2wXE=
+
+Name: codechicken/lib/util/TransformUtils$1.class
+SHA-256-Digest: MQ9j88+AaW6FNc75c/36L+dW6PXo3VZv2iccwuWDLvM=
+
+Name: codechicken/lib/model/bakedmodels/OverrideListModel.class
+SHA-256-Digest: PCcPv8yJUQGq90W/n8D6nU430qlEG+0tS5WUYi/kXmU=
+
+Name: codechicken/lib/model/bakery/IBakeryProvider.class
+SHA-256-Digest: 1afXgs7LJdRbIJ5HkygMIbpFVz0Ba4vJm00a64WS+Qg=
+
+Name: codechicken/lib/vec/Rotation$5.class
+SHA-256-Digest: Bz6Ai2Un/H+012LLasZhH+G3aFsLlUCqpLXQ8zY8kdQ=
+
+Name: codechicken/lib/raytracer/IndexedCuboid6.class
+SHA-256-Digest: spmerhDWutBo5OiKt2g8KLp0k2ur8FuuJ6u5+ZLeyGk=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedSpriteProperty.c
+ lass
+SHA-256-Digest: m02HIo216/Ke2CBlwIqWdMJqn1iiSf34v9yxC5Fe0rk=
+
+Name: codechicken/lib/render/consumer/UnpackingVertexConsumer.class
+SHA-256-Digest: /tBrSgo+Fe0aYmU3r9IMEV0c9bXUW+vlS5/zCFN79Oo=
+
+Name: codechicken/lib/render/state/GlStateTracker$State$5.class
+SHA-256-Digest: JACrYhmISdZB7xy7E9FLfbFo+jiMyzHlIlUTSY6sk3c=
+
+Name: codechicken/lib/texture/TextureUtils$IIconRegister.class
+SHA-256-Digest: Q5VAzDr8NecwcW4eP2Br7KOtaxXtyMHEvkaBexZPTzY=
+
+Name: codechicken/lib/vec/uv/IconVertexRangeUVTransform.class
+SHA-256-Digest: LCv5j+HCkH5oZuN1Hkjr/dxQ/n1sfWSnzOTZhkPzHRM=
+
+Name: codechicken/lib/internal/command/client/highlight/HighlightInfoC
+ ommand.class
+SHA-256-Digest: ZqWeG0Y/oZFeztttQi3cCVD1C83EdeM9TZXj0z7rcdM=
+
+Name: codechicken/lib/render/shader/ShaderProgram$UniformCache.class
+SHA-256-Digest: OMQeOxX+yeSxPyF1F5U7eLtyK1YelyLhT7h2ruto8Qo=
+
+Name: codechicken/lib/internal/proxy/Proxy.class
+SHA-256-Digest: 9x+q0T++6HBfjpoVlO81AsDjoQUmIAAzkCOxXYbO0lE=
+
+Name: codechicken/lib/render/item/entity/WrappedEntityItemRenderer.cla
+ ss
+SHA-256-Digest: +vZC1nMHFfRP1yeI0kvubWHiWVHDUdR21t6ezYopDsE=
+
+Name: codechicken/lib/command/help/HelpCommandBase.class
+SHA-256-Digest: q/jyo4YloeayQ7lUXi2zh0mc7QI1Ww1yRM01c8HrHTY=
+
+Name: codechicken/lib/block/property/PropertyInteger.class
+SHA-256-Digest: RFjJ1GbyHljZImg9Qb1EjVEXz5KsdUOi+wF65KAI2IQ=
+
+Name: codechicken/lib/gui/IGuiActionListener.class
+SHA-256-Digest: IjsGKzhc9N7F58fe7ruAPjvP4RB/k8eR3V2avYE99Vc=
+
+Name: codechicken/lib/model/bakedmodels/WrappedItemModel.class
+SHA-256-Digest: 6su+cdrP9iHMlM/3AgTbp2MMDutxmvBpS1foQ2SWKB4=
+
+Name: codechicken/lib/thread/RestartableTask$1.class
+SHA-256-Digest: PExFr3q9kHf/Ut3CAuB9yPKhMuonThwlTfV9A5Aq/BE=
+
+Name: codechicken/lib/data/MCByteStream.class
+SHA-256-Digest: Ng3owOrfeCXQuANh2zdTGvLkHW1DATzhCSfIn1zBgcI=
+
+Name: codechicken/lib/model/loader/bakery/CCBakeryModelLoader.class
+SHA-256-Digest: 55c48GsWtap4rVZi/Fitwo6E0vLqEWFXy3TyNEf5ox4=
+
+Name: codechicken/lib/raytracer/CuboidRayTraceResult.class
+SHA-256-Digest: Mrk79/3jnl3E8pKdfRVAilft560geE6VOT/JQgzEdxM=
+
+Name: codechicken/lib/vec/IrreversibleTransformationException.class
+SHA-256-Digest: 3e7S8TWUTx2jqK+5mi0BXLSzV445RZqvFg8GvQmbvbQ=
+
+Name: codechicken/lib/util/ArrayUtils.class
+SHA-256-Digest: tuifzr//dBVFjjBlXNoLBJquC2KvEaCP6Tbg7+Lpygg=
+
+Name: codechicken/lib/command/help/IHelpPage.class
+SHA-256-Digest: mLSI5CJiYP4h/3th+LXr0lvZVZU10S7rzkMDIf7wSYE=
+
+Name: codechicken/lib/model/bakedmodels/ModelProperties$Builder.class
+SHA-256-Digest: Zp7MzQ737RajY/5EQUB9y0c4tuc6s3xBdCPNSxOBQA4=
+
+Name: codechicken/lib/util/VertexDataUtils$1.class
+SHA-256-Digest: Sizpqh5jHY40DHHxm4hiJiPN1jcsA3OYGsV2VXXOmQo=
+
+Name: codechicken/lib/vec/Vector3.class
+SHA-256-Digest: K8Athge00mZHH8nzVPC9eXY12TYPkLqRT8wMGcGJGq4=
+
+Name: codechicken/lib/config/ConfigFile.class
+SHA-256-Digest: BrSR9SVzrg6UGiPBTFV2xze/YEQT5GpFCd9LfaRdKyY=
+
+Name: codechicken/lib/configuration/ConfigFile.class
+SHA-256-Digest: 3RyL+xIljDj+fMgMz3NKaDT6ZWKpTHmsmWKzcrvYwVc=
+
+Name: codechicken/lib/render/shader/ShaderProgram.class
+SHA-256-Digest: hIq78WSwJquyJAyyumADmU38waczKfL3sma2gCfPZgQ=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedStringProperty.c
+ lass
+SHA-256-Digest: lSiNiG5FWAMmBpAkW6Ut3NtcxKqiohOFME3xDOvPGsk=
+
+Name: codechicken/lib/raytracer/IndexedCuboid6$1.class
+SHA-256-Digest: dQnHU5RmM3Q+QxvKFiXcvFd0PeXZU//9asq+UeLippM=
+
+Name: codechicken/lib/colour/Colour$1.class
+SHA-256-Digest: kS66zUY9sE4rw06h99cy0cFC/eDFC6P9cH293WecMgA=
+
+Name: codechicken/lib/item/filtering/IItemFilter.class
+SHA-256-Digest: qHIpM1dQP6lUw98MzqZvuBkq3J+iFPksVVxOUyngtsQ=
+
+Name: codechicken/lib/fluid/ExtendedFluidTank.class
+SHA-256-Digest: mscdTSBHzuhQIJW1VJdufUO/lRKofVHDREYfrw3ts4g=
+
+Name: codechicken/lib/recipe/AbstractConfigConditionalFactory.class
+SHA-256-Digest: fTcJtmPl/h+mjHgjLqfyeYgf//Buk8BanCFZmbRu+Y4=
+
+Name: codechicken/lib/model/loader/cube/CCModelCube$1.class
+SHA-256-Digest: mRF2oTM4P9BxDqRE+v46M89TitKv117W6lg3wu/z5Uw=
+
+Name: codechicken/lib/gui/ClickCounter.class
+SHA-256-Digest: 125NVeEgkHGfyGiGuKhHz0pVw6NyCyW4FIHHhS9wo2I=
+
+Name: codechicken/lib/inventory/InventorySimple.class
+SHA-256-Digest: HjQSiycmHSAp8Ul/z02UVLSl+l/Efi8h9d70Nr1f0WE=
+
+Name: codechicken/lib/vec/AxisCycle.class
+SHA-256-Digest: Wyle0oz4dig67U6KKX7hgNnG2HPMfU9/sfcn2eXfdjc=
+
+Name: codechicken/lib/render/state/GlStateTracker$1.class
+SHA-256-Digest: y1yrYqtpB+7r40lk7ttyALrrGIf195PkPO1QC1g9GM4=
+
+Name: codechicken/lib/configuration/ConfigTag.class
+SHA-256-Digest: g/5li5XwEhFDF7CrpKKaU84eZo8gS4s6ndac5tNzZF4=
+
+Name: codechicken/lib/gui/GuiDraw$GuiHook.class
+SHA-256-Digest: P7h861ih2FCSgceD7npHIK5w4oGfPMCau7To8G6IBdw=
+
+Name: codechicken/lib/gui/GuiScrollPane.class
+SHA-256-Digest: UNpjOjSSWN7Tf0cNmABA5BWPPKuiF9bDye5FIWCRm1A=
+
+Name: codechicken/lib/vec/Rotation$6.class
+SHA-256-Digest: BZyPYed2GhsxmWaGi23cdpP/1I7P/UcENvx9dT0PaCE=
+
+Name: codechicken/lib/render/state/GlStateTracker.class
+SHA-256-Digest: 1roUiZeAuuSlUlfEJSUOT8D6EAi5u5BYvbhSkSdEHKk=
+
+Name: codechicken/lib/render/particle/DigIconParticle.class
+SHA-256-Digest: i7U1ERiXt3ipepZBBZwA8W3Jce7igGEsrAG1906vQBA=
+
+Name: codechicken/lib/packet/ICustomPacketHandler$IServerPacketHandler
+ .class
+SHA-256-Digest: eiTBYAbKhvlJIdTJ0k1QOeMKcawl0rEA2L9ZxpNWpwQ=
+
+Name: codechicken/lib/texture/TextureFX.class
+SHA-256-Digest: WeXF7UFqR9kIGth4lcZWzXs2aaT0Z9R9rvdSGuT08aw=
+
+Name: codechicken/lib/data/MCDataInputWrapper.class
+SHA-256-Digest: jsDovWQa9fYLezh2VGNnvn5yiEpvMPhYV0TYzxIyxRA=
+
+Name: codechicken/lib/model/loader/blockstate/ITransformFactory$IStand
+ ardTransformFactory.class
+SHA-256-Digest: dTZl+wEEieglEh4K9ggrYGhyyo6+E+VP7AYkIQ4gV88=
+
+Name: codechicken/lib/fluid/FluidUtils.class
+SHA-256-Digest: 0TNDABO1US/bl45kojdJAZD1jh7iJGDUdqgndt6h0C8=
+
+Name: codechicken/lib/util/RotationUtils$1.class
+SHA-256-Digest: vYUPGvGw1p9oaWyApDsR6CIK4U/yasQoEKNo4P2klTc=
+
+Name: codechicken/lib/internal/network/ServerHandshakeHandler.class
+SHA-256-Digest: syHrwhCT1g0hd6ul2tzWZTB/aNiMOvO04cd7alh9Qss=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedIntArrayProperty
+ .class
+SHA-256-Digest: czkfx3TMscCJOu6Uq1+kcRII1YapLat+oLrgsv/3PV4=
+
+Name: codechicken/lib/inventory/MappedInventoryAccess$InventoryAccesso
+ r.class
+SHA-256-Digest: vimiYHrTqgeMyh3uM3GsQkUfLeDxJr2dXMuy3X+ll7Y=
+
+Name: codechicken/lib/model/bakedmodels/AbstractPerspectiveLayeredMode
+ l.class
+SHA-256-Digest: Z8qN5JPaT7UuzgFTcViOL8+U2K9llclOejjJJoj2bfA=
+
+Name: codechicken/lib/render/item/CCRenderItem.class
+SHA-256-Digest: 58OBeYtNNZklTAcs17dDgWMzD+EPOPqafTN7J3pFYZw=
+
+Name: codechicken/lib/model/loader/blockstate/CCBlockStateLoader$Wrapp
+ edMRL.class
+SHA-256-Digest: f6MlpGktMznc2s2oxbuHkHmWaZcJRWJRRf+EozkLUZA=
+
+Name: codechicken/lib/util/FontUtils.class
+SHA-256-Digest: ERW3e2pKajuMUhcIRCEUcbVcqtA65lKWXs1+v9X2NpQ=
+
+Name: codechicken/lib/render/pipeline/CCRenderPipeline.class
+SHA-256-Digest: qCMqfmcGOMb3DW5YwZNOtHMUb+u2U0fZ1G73/ZFfetc=
+
+Name: codechicken/lib/colour/ColourARGB.class
+SHA-256-Digest: i22PtVuhhxfOQU2PkGdsSn+sA8polnn5M4BojrTQ7u8=
+
+Name: codechicken/lib/inventory/container/GuiContainerWidget.class
+SHA-256-Digest: je5Rl1LqWrMe9NPjODGmAvF/M1tl+DG+yoKUzAJiVLw=
+
+Name: codechicken/lib/vec/uv/UVTransformation.class
+SHA-256-Digest: LWu7h7NEXm9+eEA00D0jrTsGtT1QoXKOg6KQjICByXw=
+
+Name: codechicken/lib/render/shader/ShaderProgram$IUniformCallback.cla
+ ss
+SHA-256-Digest: tHGuy80kL7GXgECSmbOB8qJeq5zth8KX1aTTu8P/f8k=
+
+Name: codechicken/lib/configuration/ConfigFile$ConfigReader.class
+SHA-256-Digest: vk1hHK3EuSPsdsEyTxrhR0o+1M3cvj++xQjjvdRbBf0=
+
+Name: codechicken/lib/vec/Rotation$7.class
+SHA-256-Digest: IZKI22YzGeYd1rR6zXiepDPRSpfPFD8LaYotB+8QKiE=
+
+Name: codechicken/lib/render/buffer/VertexBufferllator.class
+SHA-256-Digest: tES/ysZsoCCQE2ANt0c/PxIkDcaFLug3iSKif6oiRqs=
+
+Name: codechicken/lib/model/bakedmodels/AbstractBakedPropertiesModel.c
+ lass
+SHA-256-Digest: uub3+3iQZHP/cnGy+1z95iPxAZj4Bb+WJunXkqvB1Bo=
+
+Name: codechicken/lib/render/state/GlStateTracker$State$1.class
+SHA-256-Digest: 12vq64Nx1tGhLnrRFqPcP7fY3QzpnNK0gJnaBOeAzY0=
+
+Name: codechicken/lib/command/PlayerCommand.class
+SHA-256-Digest: qhikaGGNiqnyX3j536PwJ/1vcuJ9oH0/JzEj1+lx2eI=
+
+Name: codechicken/lib/render/shader/ShaderProgram$IGLUniformCallback.c
+ lass
+SHA-256-Digest: OJ9uCD9oa6bHqCe/9hd68QRd4ZmJWQBBqypK5JB2XME=
+
+Name: codechicken/lib/render/buffer/VertexBufferllator$1.class
+SHA-256-Digest: 3R8rjvwFlm5TCpG1dbQjlfysDl7tO7xhgatk/phxLV0=
+
+Name: codechicken/lib/model/loader/cube/CCModelCube.class
+SHA-256-Digest: FFqRyqoXuNW3R3+gvwODjKVpkgv0kpoQyELACtWJdSs=
+
+Name: codechicken/lib/model/modelbase/CCModelRenderer.class
+SHA-256-Digest: EHsf13Fky028IyY9e9uwdgLVvOfxMGIzyCUYEjZkbsA=
+
+Name: codechicken/lib/reflect/ObfMapping$MCPRemapper.class
+SHA-256-Digest: gel30Br0jV2sxjhtq0X1AVh0VbunKRf1HlCBmPLf9FI=
+
+Name: codechicken/lib/vec/uv/IconVertexRangeUVTransform$Builder.class
+SHA-256-Digest: rYGONMtqVwWty40sbXHzqEabuDeXxOfaZWlv7/I1DmA=
+
+Name: codechicken/lib/model/ItemQuadBakery.class
+SHA-256-Digest: PqrD+iMetFAk6rf7uV5AmR41X6EI/3FHomqEPPLP56Y=
+
+Name: codechicken/lib/packet/PacketCustom$CustomHandler.class
+SHA-256-Digest: AnAg/a28VqL+m9J9u6ZekNwzNCiVT6Zg9V4sNQcPcH4=
+
+Name: codechicken/lib/vec/TransformationList.class
+SHA-256-Digest: BiNpw6MlqvpUSTS4WSmcgZ/SrnFyidNM7I+OloV2VDA=
+
+Name: codechicken/lib/model/bakedmodels/ModelProperties$PerspectivePro
+ perties$PerspectiveBuilder.class
+SHA-256-Digest: ittAfCJBgrFXhz5aoQguYXLT8K1c2Femno+uqcT6oFE=
+
+Name: codechicken/lib/util/ClientUtils.class
+SHA-256-Digest: tztGfDrDXyjQmIENpCDKUIggDGyizhpah8Rw3+kdYlI=
+
+Name: codechicken/lib/render/CCQuad.class
+SHA-256-Digest: dmwyBi5G+jQxIkSy7ysUQzUA8BHJe950M0u06vueLrE=
+
+Name: codechicken/lib/render/shader/ShaderObject.class
+SHA-256-Digest: ZSSrV7Hq7T6zUPp+/WR2Kh17IKsfkLO/MHwq5rIWPkc=
+
+Name: codechicken/lib/world/WorldExtensionInstantiator.class
+SHA-256-Digest: 7jCR+1eyNnMs3g8s8rrajCxBVr9FUwkSakSbfSEsUAo=
+
+Name: codechicken/lib/model/forgemodel/CCMultiModel.class
+SHA-256-Digest: AhB5qxw6LNiErqeES1aQtvCa5my0WEwrtw9ATeCQKYQ=
+
+Name: codechicken/lib/model/bakery/CCBakeryModel.class
+SHA-256-Digest: PxodYyxWvwM892/T/EUqx4bMTX7aMerMiwBd7IPdJt4=
+
+Name: codechicken/lib/configuration/IConfigTag$TagType$4.class
+SHA-256-Digest: aZbF1MLXgZPkGMUiCEYboK8ALQfth3Rc+pzlAoGg4fA=
+
+Name: codechicken/lib/model/ModelRegistryHelper$IModelBakeCallbackPre.
+ class
+SHA-256-Digest: v/BcXhatxsaJrPsI4jLi/m2yRu132bK7yn0vPWzI/HE=
+
+Name: codechicken/lib/configuration/ConfigFile$ConfigException.class
+SHA-256-Digest: 484asEUU3m9YVsuRI6nD9oHp9ePWY+t/+TWbmn4+PMY=
+
+Name: codechicken/lib/render/CCRenderState$1.class
+SHA-256-Digest: eSdXNAMWCrECGWVCAEXjIND2gOwXZ1IOENYO4sALHU0=
+
+Name: codechicken/lib/data/MCDataInput.class
+SHA-256-Digest: otmq1K6SdRQq7DTpAlquuFt60bSy7RLBX/b04+jqyL0=
+
+Name: codechicken/lib/internal/command/client/NukeDynamicBakeryCacheCo
+ mmand.class
+SHA-256-Digest: NuE5g99sqrcZx24SNeLcb7dTT+KsfbBJKykslt2/KMQ=
+
+Name: codechicken/lib/thread/RestartableTask.class
+SHA-256-Digest: vF5aX4ETy8zKyeZqkcy0QbDmNQc0uzi6DGqvD6t8LhI=
+
+Name: codechicken/lib/configuration/IConfigValue.class
+SHA-256-Digest: ySB/h9pb0uXEfh7Q+eEU5pG3DX7UeLAtU97EYCV0ryo=
+
+Name: codechicken/lib/render/ModelHelper$Face.class
+SHA-256-Digest: akAWZfl/s1ZppUcWfzr6HH6gHY+lvkqtOGdP0iwrH7o=
+
+Name: codechicken/lib/lighting/LightMatrix.class
+SHA-256-Digest: PEdifcuF5utctnljg4fnC4ABKPojMkCrS2iQX00R4lY=
+
+Name: codechicken/lib/render/pipeline/attribute/NormalAttribute$1.clas
+ s
+SHA-256-Digest: Dou8mWnoWYOiYte/CXGIjZFXKr+Cc+qfoOg5o/aFvd4=
+
+Name: codechicken/lib/configuration/IConfigTag$1.class
+SHA-256-Digest: JPql22FcJgxcnHX0sjFFwT4RZU3AU56QpdmEXND7f8M=
+
+Name: codechicken/lib/configuration/IConfigTag$TagType$5.class
+SHA-256-Digest: Ov2B1tB5JrNtIVyJG76MqYz2jByQQBoldaUZKiakz/Q=
+
+Name: codechicken/lib/vec/uv/IconTransformation$1.class
+SHA-256-Digest: KS3YViE0SRaFVMQewEU+ziv7Sw5eeL/z25Dcc7YQiVA=
+
+Name: codechicken/lib/model/bakery/sub/SubBlockStateKeyGenerator.class
+SHA-256-Digest: flPix0znNOJpb9TFlIUuG+E2X5A4rnZmAWetHiUN0TE=
+
+Name: codechicken/lib/packet/IHandshakeHandler.class
+SHA-256-Digest: owf3cSLoFTGzXo8V53QFG5xnEzh8+U3VaHtbPcoh6AU=
+
+Name: codechicken/lib/vec/uv/IconVertexRangeUVTransform$1.class
+SHA-256-Digest: lg3dPENd8CH4JXc25op1WWzwzDAPxifwQGztcV9Fs1k=
+
+Name: codechicken/lib/render/CCQuad$1.class
+SHA-256-Digest: /+gRm3Ea6vWn+m4B5+ok6RseOkbG55kDS32c8xwfpxc=
+
+Name: codechicken/lib/model/loader/blockstate/ITransformFactory.class
+SHA-256-Digest: STfzncMdFg2LuynRHPcHFmpRi1smPF8igpUYx7i6r3o=
+
+Name: codechicken/lib/render/pipeline/attribute/NormalAttribute.class
+SHA-256-Digest: BGq+MJwHCXNrWHX8oQLg/y2uYiiVw4uP2HoBPncvLNo=
+
+Name: codechicken/lib/model/bakery/generation/IBakery.class
+SHA-256-Digest: mYfSjcQZ2+3twOWa5L/gAb5EbNrk0uChrr7A48qeLJM=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedGenericTile.clas
+ s
+SHA-256-Digest: 7816wU3G02+TvJPLvTREiE1qmu9rC2yawRqrVchHTyQ=
+
+Name: codechicken/lib/thread/TaskProfiler$ProfilerResult.class
+SHA-256-Digest: XEaLC/rSpRd+yOtTECBgAK7CgrKT5iVEUiVO4Gv3mXo=
+
+Name: codechicken/lib/util/ItemUtils$1.class
+SHA-256-Digest: UxgIWoieIeizCQear63gIBcfHBwqcobtyCcak38vnjo=
+
+Name: codechicken/lib/configuration/IConfigTag$TagType$6.class
+SHA-256-Digest: 6QpgM4FqRBgXxSE7vNuiQggIJNCHbDZ7NcPHa27iGEA=
+
+Name: codechicken/lib/render/pipeline/attribute/LightingAttribute$1.cl
+ ass
+SHA-256-Digest: dz68afXs+qJMjP3YKt7ehVUtnKlrjAeJKZ4x3vbogX4=
+
+Name: codechicken/lib/internal/network/ClientPacketHandler.class
+SHA-256-Digest: 1J8P2b/VtpsXs28w0AgyC7jX8KSe3gUDZI4vVTrO6iM=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedByteProperty.cla
+ ss
+SHA-256-Digest: Q2r1FzKFynEgoQN/fBFHQR2dIqiaZuKPt4t6Z48kCvE=
+
+Name: codechicken/lib/command/CoreCommand.class
+SHA-256-Digest: oWR9Ls2cjhyPJuHjOxs/N3IFdNO1lhUA9EBVW8JWrVY=
+
+Name: codechicken/lib/model/bakery/generation/ILayeredBlockBakery.clas
+ s
+SHA-256-Digest: mnvSbN1MmtT+qe5DqniYY8C9A172ti0qeRqs2pPJtrg=
+
+Name: codechicken/lib/configuration/IConfigTag$TagType$3.class
+SHA-256-Digest: /t+BOI0/d2js1b4Lhbn6Cr0qElWh5vPTmGf1Yz+iupE=
+
+Name: codechicken/lib/render/CCIconRegister.class
+SHA-256-Digest: B+vc1E+pFDF9HPQfJzowFLjiN/PFmZnE6RkSrcrLo+c=
+
+Name: codechicken/lib/render/pipeline/CCRenderPipeline$PipelineNode.cl
+ ass
+SHA-256-Digest: IXRR3rG/OUc1uWjBivBgTltcB8HQCqLA8mTADFKpwrs=
+
+Name: codechicken/lib/model/bakery/ModelBakery.class
+SHA-256-Digest: I1DkD5pG3Hj05GXm9wNgHmGiRSDdHTOhRw1OPZinGc4=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedBooleanProperty.
+ class
+SHA-256-Digest: F8b7WeYgbxrXo3QKguTQ1pwxa+JzPvUYaNe+oolAW4Y=
+
+Name: codechicken/lib/model/PlanarFaceBakery$1.class
+SHA-256-Digest: Rdj76F9CVrkQEUcDJ63VktssUDFOtKj3t9lL6xzx1W4=
+
+Name: codechicken/lib/model/loader/blockstate/CCBlockStateLoader.class
+SHA-256-Digest: z9db7bQHz7hhDRnLmWEucsVN57zXYg1uYxuKx5FQaKY=
+
+Name: codechicken/lib/render/pipeline/attribute/LightCoordAttribute$1.
+ class
+SHA-256-Digest: qIygNsLElpxyyXVxbH295bG4OCjtAHPCH/ww37vf32U=
+
+Name: codechicken/lib/config/ConfigTag.class
+SHA-256-Digest: XaCYQKu4CTkCgeAHCN7GgFB8O2me+P7bpdtp8n2zIZk=
+
+Name: codechicken/lib/model/bakery/generation/ISimpleBlockBakery.class
+SHA-256-Digest: zW0KBHr8u46WbuFGzJxGPKzoYRiBjbz6dT5ZY1JQ6Bw=
+
+Name: codechicken/lib/math/MathHelper.class
+SHA-256-Digest: RKJAtlJ2Bz6dtnm/K6gJEtqw1dmb6CIyEh9kaAEdIYU=
+
+Name: codechicken/lib/lighting/PlanarLightModel.class
+SHA-256-Digest: Vq6VRFQbX8MzthIRBfqczONSNux2taxe38dL/Q10ohg=
+
+Name: codechicken/lib/configuration/ISerializableConfigTag.class
+SHA-256-Digest: YfPSfjMGCBhokxNtZkEvpnb02u0awiFqk52ieowaLPg=
+
+Name: codechicken/lib/item/filtering/IItemFilterProvider.class
+SHA-256-Digest: 79bntt1NAmnFAlZJQLTM8Xe+LsGaJu+6f3c3F5j64tw=
+
+Name: codechicken/lib/vec/Transformation.class
+SHA-256-Digest: PvfI1pKQkGCrdV68xYf157cWrL08YIMqtvssTbqnZ4U=
+
+Name: codechicken/lib/util/ServerUtils.class
+SHA-256-Digest: cViyfrt4e5stiUOQXQNLasgf7IKs4h4wspKb8H97AUw=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedResourceLocation
+ Property.class
+SHA-256-Digest: sean5HuRvbG49HuktpGcaozYVTXfUS5cLxfEqUETx2s=
+
+Name: codechicken/lib/world/IChunkLoadTile.class
+SHA-256-Digest: CAff5YawHnphPGFa92BbX/X1gdIXwCUMYo/O8FdSJg0=
+
+Name: codechicken/lib/texture/ManagedTextureFX.class
+SHA-256-Digest: opJj7JYYeiepH6QDcQRTxjbXz/+ZT/8CU+hC3TgjyMA=
+
+Name: codechicken/lib/model/bakery/SimpleBlockRenderer.class
+SHA-256-Digest: ctIA21XXMjpLTCXZO2SBuPTVMw8diBad6ztERcHwk50=
+
+Name: codechicken/lib/render/ModelHelper.class
+SHA-256-Digest: ykBuegCG8oECunkekv9An5znJB4yrYFcS6uaBI2nm1I=
+
+Name: codechicken/lib/render/CCModelState.class
+SHA-256-Digest: vQx+aMfSBmaprvXV4EdVlk0sm1dR0fphdqBZvdEfT7w=
+
+Name: codechicken/lib/internal/HighlightHandler.class
+SHA-256-Digest: jXxWMghLhoKYQS4FmH6Hhhs5a57iXJ4mfIQSXevdLzg=
+
+Name: codechicken/lib/world/WorldExtensionManager.class
+SHA-256-Digest: DlEqa2gGqpjDGoLgPAFkoufxaHBYl/Cc9iuzZIrbZHk=
+
+Name: codechicken/lib/render/pipeline/attribute/SideAttribute.class
+SHA-256-Digest: 5o/nCX07etRdcepVP/QQJeppXnrbIMO4tXin73t9pbQ=
+
+Name: codechicken/lib/render/pipeline/IVertexSource.class
+SHA-256-Digest: +DgBHaSKgZl9RXBUOo331i+2XOmE4c9Mszm6pf1nK6c=
+
+Name: codechicken/lib/reflect/ObfMapping$ObfRemapper.class
+SHA-256-Digest: cqRHMADPs5suHEdg56rs/zzrYm7wlRGh1AVp0E8S/7Q=
+
+Name: codechicken/lib/render/CCModelLibrary.class
+SHA-256-Digest: 8IninffrRbT6WqbUfzxdOJh5Qf8jZwewRovkmg51qZM=
+
+Name: codechicken/lib/raytracer/ICuboidProvider.class
+SHA-256-Digest: 10dsNHryhCZoC/BGAQVSczM/DJEeLicrLgJXMK5W71s=
+
+Name: codechicken/lib/model/loader/blockstate/CCFinalMultiVariant.clas
+ s
+SHA-256-Digest: RNapUBRo15gjP7V3n7V7fHlMAtFU8kTAT+HZN4ucpm0=
+
+Name: codechicken/lib/configuration/IConfigTag.class
+SHA-256-Digest: mEMZfe3usCYf/bk/GaQrxheUhlvjyPOup5q+WYZlQI8=
+
+Name: codechicken/lib/raytracer/RayTracer.class
+SHA-256-Digest: 0FIk6Hsl42Q0kmH/QGgPqm3yoaLo6T+LGSXI/a3HABA=
+
+Name: codechicken/lib/config/SimpleProperties.class
+SHA-256-Digest: ZEIkgKRmWW7B1xFyuJ74MGkvsGbTGRkpKGg+NeUBddM=
+
+Name: codechicken/lib/vec/Translation.class
+SHA-256-Digest: SeXyWKguji21C7z17GoViDn6pym/pTqM6Tm6Sg5fcnk=
+
+Name: codechicken/lib/vec/Quat.class
+SHA-256-Digest: 1QtKloBStGJp/6INt1UUDJYNUtz2KVH1o7kYt/bPaFI=
+
+Name: codechicken/lib/internal/ExceptionMessageEventHandler.class
+SHA-256-Digest: +wlHnHqDUNjkSPnFqSAfDiKEM4kF6yMlnt3l7GeNrUg=
+
+Name: codechicken/lib/model/forgemodel/WrappedIModel.class
+SHA-256-Digest: 8N/kEBTggj1zmwryswb4cA7XYNvLIPcbq+Ng3CFDeA4=
+
+Name: codechicken/lib/internal/proxy/ProxyClient$DummyEntity.class
+SHA-256-Digest: ueoOhJnUDKgDlpGbROPkExJRIhCIh1bwXniqPlApy9g=
+
+Name: codechicken/lib/packet/ICustomPacketTile.class
+SHA-256-Digest: x6H3KMlR4YbmIsjjnYFlmXLznzEGjdj1FnzuAuj1jjg=
+
+Name: mcmod.info
+SHA-256-Digest: 9pIQ7VS/i9fnIsT9sC3tmRgcoEcaGzNLie0H5EIyop4=
+
+Name: codechicken/lib/inventory/MappedInventoryAccess.class
+SHA-256-Digest: xR0hrkndaV/UIcpjaMBvUbqza/aa2kIioREQwDpQtd4=
+
+Name: codechicken/lib/render/block/ICCBlockRenderer.class
+SHA-256-Digest: CF0qHqQcxbAglw3Zcc87Pe+SXDbMqqJOlpTFa8XkLbM=
+
+Name: codechicken/lib/vec/uv/UV.class
+SHA-256-Digest: LGaQACrUzIMTr+sPlnUed/eI3e3McVk9HLSJh3P3SOo=
+
+Name: codechicken/lib/thread/ThreadOperationTimer.class
+SHA-256-Digest: 0BND3+j0DWdJWvPKTghnXvuKCDfYGIdqOHG1gm9i/XA=
+
+Name: codechicken/lib/thread/ThreadOperationTimer$TimeoutException.cla
+ ss
+SHA-256-Digest: SWJZyuXfLGyMT/JveTsWoJ/8Thk+pXEQ3/BOtCrARdM=
+
+Name: codechicken/lib/render/OpenGLUtils.class
+SHA-256-Digest: fo9zM+KmuUJGEt2F2e2lLS2gAHzQGi25zqyYLvuwygU=
+
+Name: codechicken/lib/util/TransformUtils.class
+SHA-256-Digest: CvrvRN1Ays5etj8RIHLWat4avQpJdkDwJaFpi+2pC/Q=
+
+Name: codechicken/lib/render/state/GlStateTracker$State$2.class
+SHA-256-Digest: VlJs6E3GVtBxqZJOM/BHY+CyBnxV/oNRoFi2DDzO2c4=
+
+Name: codechicken/lib/model/bakery/generation/IItemBakery.class
+SHA-256-Digest: uaSiYvUxq1kOpJ6F83NvOqVak4cKZdaAe6hbfOFYdsQ=
+
+Name: codechicken/lib/render/pipeline/VertexAttribute.class
+SHA-256-Digest: xdyfwto8RN46jyg7KSQqz+kbe3S2++2KKgxAx9gkIKk=
+
+Name: codechicken/lib/vec/Rotation$2.class
+SHA-256-Digest: //KsJIFxjTHPasduNISG0CAVSEzN0SxtXrAui0Bx9/k=
+
+Name: codechicken/lib/internal/command/client/highlight/HighlightClear
+ Command.class
+SHA-256-Digest: YJWnFrFZrFMxb9W4rIMERUlgfH344SUlBFmQ02ljb3s=
+
+Name: codechicken/lib/vec/uv/UVScale.class
+SHA-256-Digest: rBArtU/1xcW3V+zm1TPAzPKH1BW6k1gEuzDjGxkn3fs=
+
+Name: codechicken/lib/recipe/ConditionalIngredientFactory.class
+SHA-256-Digest: paF5KQVjGACkdML3VcuaGNIocktILUeho3571lquhS4=
+
+Name: codechicken/lib/render/shader/ShaderHelper.class
+SHA-256-Digest: /uOSTHLGKXToAnlttgENul7OnWyH0BKCbd4Q88f/i+Q=
+
+Name: codechicken/lib/texture/PlaceholderTexture.class
+SHA-256-Digest: yqqKEbcp1d6v9mxROMoHviwBwb4eu2LdI97vwZYrT8U=
+
+Name: codechicken/lib/render/pipeline/attribute/LightCoordAttribute.cl
+ ass
+SHA-256-Digest: KAp3DtISc7zvHWg8nhuW9uLRGVlL1vtYU3Dr6x3llDw=
+
+Name: codechicken/lib/render/buffer/BakingVertexBuffer.class
+SHA-256-Digest: bEiM/X3B1vPdswgGMlh0AVrIP9wuK9LJXc0oA5D4GAM=
+
+Name: codechicken/lib/configuration/IConfigTag$TagType$1.class
+SHA-256-Digest: WM4uWiTFlbJb4DFAimiFWpUcWCA59aWasnlynvNfJFI=
+
+Name: codechicken/lib/model/bakedmodels/PerspectiveAwareLayeredModel.c
+ lass
+SHA-256-Digest: 3Ku/yMF7h94PKwWQX65m30e+dGVdGGHr30o+504XMXo=
+
+Name: codechicken/lib/render/shader/ShaderProgram$UniformEntry$Boolean
+ UniformEntry.class
+SHA-256-Digest: A85IssvDkH8TK2rMo3OqcKnmd/XfkN5R1HslDY1SkLo=
+
+Name: codechicken/lib/vec/Scale.class
+SHA-256-Digest: IhuihakygReHGIM7Ko3/x7ZCYIrHuRocJIPDAkfiRqw=
+
+Name: codechicken/lib/colour/CustomGradient.class
+SHA-256-Digest: Nt6cW/AMLyjqu31TF4BmpgVQ8YF44zjM7aiTrntCHXg=
+
+Name: codechicken/lib/render/BlockRenderer$FullBlock.class
+SHA-256-Digest: OpHy+qQ24KblwgmqjC+r7zBc37ddV6eh/i2wrBGhklo=
+
+Name: codechicken/lib/packet/ICustomPacketHandler.class
+SHA-256-Digest: /27TF5kxRkGIdJmaYg1Uf5E0K51PwBVOj0JDfNVM7I4=
+
+Name: codechicken/lib/vec/Cuboid6.class
+SHA-256-Digest: KPdGq1uXgILghgqllINJdRbKKj8lajAtbo4PQqd9W7s=
+
+Name: codechicken/lib/packet/PacketCustom.class
+SHA-256-Digest: 4Urj6bneNmiTJKRjApos5IionKWmty2JdqXjYZUcJI0=
+
+Name: codechicken/lib/render/state/GlStateTracker$State$4.class
+SHA-256-Digest: 8Vyn+raDH7gjKG/W/NH9WwcVaHF310TcpPIVYZ+pyPM=
+
+Name: codechicken/lib/render/block/BlockRenderingRegistry.class
+SHA-256-Digest: GZFAqYSKhZl5j84m87ctXR7e7IQ+H9skQyTp67oTE2A=
+
+Name: codechicken/lib/render/pipeline/attribute/AttributeKey.class
+SHA-256-Digest: Wdzpse5ZhbOJrxp6xCSJIDENdflqPKF8POk9IRYNREU=
+
+Name: codechicken/lib/texture/IWorldBlockTextureProvider.class
+SHA-256-Digest: ELVlheVePk8t13XXjzNvOm5HvR5aiKDp6WW62sPTaw0=
+
+Name: codechicken/lib/gui/GuiDraw.class
+SHA-256-Digest: Qay80iAvuKvqKCud6fvVqhfFXAufRCbaXPFh06bqzIo=
+
+Name: codechicken/lib/render/particle/IModelParticleProvider.class
+SHA-256-Digest: LcU1RKdYDe//ZJYuRRRabHcxLHnpWyXu234XgwDjm5I=
+
+Name: codechicken/lib/render/CCModel.class
+SHA-256-Digest: HzbTNfNotfR5TA6bb3Oz5+PNzYYpUE4siFSo75xd3j8=
+
+Name: codechicken/lib/render/shader/ShaderProgram$UniformEntry.class
+SHA-256-Digest: VZyc+snpXCSbL0QDYm4mlW0CzBLRIotX8BLOagBLUiI=
+
+Name: codechicken/lib/command/help/IHelpCommandHost.class
+SHA-256-Digest: HB9jJbuJAw62NGco9FCFrf6SZN9k52JMCoj5jfHDKOg=
+
+Name: codechicken/lib/reflect/ObfMapping.class
+SHA-256-Digest: zEaINc2Puja6/mxlNaGOXhnPz7dK5EWAiiT52I3gkfw=
+
+Name: codechicken/lib/config/ConfigTagParent.class
+SHA-256-Digest: 4t/A+9HlGt3yqTsKkAPAud4vCHSTWu3MOtS2JloVJWE=
+
+Name: codechicken/lib/render/OBJParser.class
+SHA-256-Digest: RlPAUBgPrvrFT1rnHTc1tmzXdsT+w+AIhPWiHU69Wfs=
+
+Name: codechicken/lib/util/ThrowingBiConsumer.class
+SHA-256-Digest: JyIB8XVRZtkcBg7rgx4l/TVcgUGr2wN1AWsWpoAEBZ4=
+
+Name: codechicken/lib/world/TileChunkLoadHook.class
+SHA-256-Digest: 1EbOohIO737sKmo5zVvq9N+Y4Wf1DKxvm3xunBeEBSI=
+
+Name: codechicken/lib/lighting/LC.class
+SHA-256-Digest: nBl1WFKmMnZh7HxyRFNgcry1ki2ncJcGQofL0kR0pCU=
+
+Name: codechicken/lib/CodeChickenLib.class
+SHA-256-Digest: bUf4L4Opvz45Qy6WVD7PdxwTjXrtbwV3uJoLXKCsXKY=
+
+Name: codechicken/lib/configuration/IConfigTag$SyncType.class
+SHA-256-Digest: U2mQ/SK9tV+oRCqTd8fqtYl7eYCNLwwlBLZnwYeSLZo=
+
+Name: codechicken/lib/vec/RedundantTransformation.class
+SHA-256-Digest: sYbiR9SqJWYwHD8PovocbhPofXHlTZx65KPpPhF+sZE=
+
+Name: codechicken/lib/render/particle/CustomParticleHandler.class
+SHA-256-Digest: Gmy04RhCQ6welnB369pnTgI/rQ3KdVB0TYgeRpn1q6s=
+
+Name: codechicken/lib/vec/uv/IconTransformation.class
+SHA-256-Digest: 2PC2k5u/gDYjCBqWk4u6PbjX+nSmAdKqAN33mChDVHU=
+
+Name: codechicken/lib/model/bakedmodels/PerspectiveAwareBakedModel.cla
+ ss
+SHA-256-Digest: 5fk8cYJtZyxgki+Phe0q+HUc9Qn/DGmjVHc1dQIrAQg=
+
+Name: codechicken/lib/vec/Rectangle4i.class
+SHA-256-Digest: ffLb94cLTKlO66JgKazvtTueFty+KjdwAH93oK3dTbo=
+
+Name: codechicken/lib/vec/Rotation$4.class
+SHA-256-Digest: 0STN+GTQPgbHNzsAIFaA+0vM95MDFbbKZgfADHBMnwQ=
+
+Name: codechicken/lib/render/item/entity/IEntityItemPreRenderCallback.
+ class
+SHA-256-Digest: yPXfeQkuUNshmMI1BaRYYGG8DX/Bvw1UMQmaZ2xF9i8=
+
+Name: codechicken/lib/vec/uv/MultiIconTransformation.class
+SHA-256-Digest: xmPoRLtuk0jEQrKvLMp0lCcYwXdB3ikSpMlwpta7WbU=
+
+Name: codechicken/lib/raytracer/DistanceRayTraceResult.class
+SHA-256-Digest: FZSEUzJ698N1pkX7JjjWF0NDFAVJXQmBOdGvIMw7GXE=
+
+Name: codechicken/lib/render/state/GlStateTracker$State$6.class
+SHA-256-Digest: 2zvWlbOMZNzg+FpO9yay1p9ajKdYdVgbCt9tDhsmoNU=
+
+Name: codechicken/lib/texture/TextureDataHolder.class
+SHA-256-Digest: 7TLo/Lb2S3HAhQFMlIiz0mQkRenQRvlSsj0RbWOkWfg=
+
+Name: codechicken/lib/render/BlockRenderer.class
+SHA-256-Digest: /QGuU6PJ+/Tzn9TMLLmVaXZjZ5iDswbWXB4/tpt76zU=
+
+Name: codechicken/lib/vec/uv/UVTransformationList.class
+SHA-256-Digest: xbFx6oFhFghAceSW2NOae/2Swi58ldOnDCc7zoXG0Vs=
+
+Name: codechicken/lib/configuration/IConfigTag$SyncException.class
+SHA-256-Digest: SVoT33v9CIRygQoHLFibANlUh53k2gmK8mPeNVbdtxk=
+
+Name: codechicken/lib/model/modelbase/CCModelBox.class
+SHA-256-Digest: Kfp7PgK16+G4EoLkeagA0KovXZ/UTIgFTcPmlMS8Oro=
+
+Name: codechicken/lib/render/item/IItemRenderer.class
+SHA-256-Digest: tNqFVTFOSkzWp7GPFU5fLNgyMyVzmLb+900H8ZIQOdk=
+
+Name: codechicken/lib/model/forgemodel/StateOverrideIModel.class
+SHA-256-Digest: vD2e80VDHtbOqFnAFRkitOSf4zQGp8k1aImYd0bIaMo=
+
+Name: META-INF/fml_cache_annotation.json
+SHA-256-Digest: bGBI8fZYoD5DpD+KHeMoXWFvb7WoKFqLAmJLp6M0rVY=
+
+Name: codechicken/lib/thread/TaskProfiler.class
+SHA-256-Digest: rBZ5//jZe/IQDgyxCT9yUqwgVEWQSFezBaX+uXCCmkc=
+
+Name: codechicken/lib/model/loader/blockstate/CCFinalVariant.class
+SHA-256-Digest: 0HGaNeKQOe/IwDsxHGHHeh3K9NXyEkf1JjOcD/2uWQs=
+
+Name: codechicken/lib/model/DummyBakedModel.class
+SHA-256-Digest: 4gtXoMUqyLH9UWbBQsiX3s2N6HqwmBaUuG4ve3xWXcw=
+
+Name: codechicken/lib/model/bakedmodels/PerspectiveAwareLayeredModelWr
+ apper.class
+SHA-256-Digest: N16kV7HQPLyp6XdS8hMdWA4BjKv6GQmcnLifgZ66WtE=
+
+Name: codechicken/lib/render/pipeline/attribute/LightingAttribute.clas
+ s
+SHA-256-Digest: 4iYNLz/fioz8qDNj6gdls3L7G0JDfF31qJ54RZ0ej8Q=
+
+Name: codechicken/lib/model/bakery/CCBakeryModel$1.class
+SHA-256-Digest: t1PIdg1d9jQMHn4QalO1bFEfurQwTu6ODZ4X6K9xcUc=
+
+Name: codechicken/lib/util/BlockStateUtils.class
+SHA-256-Digest: RXXeFdMyQtmZYpoGll6jFPD52oXjq66NTFronNemrnU=
+
+Name: codechicken/lib/vec/AxisCycle$1.class
+SHA-256-Digest: R4az2ap9qYnR7cHaK7IzGB/a+UlMB576RXVXDFoHG2A=
+
+Name: codechicken/lib/reflect/ReflectionManager.class
+SHA-256-Digest: iqZnl8gswbUWezhERpx6xi1iXHFmkXM9x9cVp64j9Mk=
+
+Name: codechicken/lib/render/state/GlStateTracker$SavedState.class
+SHA-256-Digest: v3Yv+isk1wPfIhV0/8BBWfcfXemBCvwEBVT5mGbhb00=
+
+Name: codechicken/lib/vec/Line3.class
+SHA-256-Digest: RO7f2z/qWdImfgjwHw3ybNDFYlRYdULrZTUoi63fQVo=
+
+Name: codechicken/lib/internal/proxy/ProxyClient$1.class
+SHA-256-Digest: f87mPgEf8S7HF6xPvTMI0FGq8v/cdo/u4hZV5VdQCHc=
+
+Name: codechicken/lib/inventory/InventoryNBT.class
+SHA-256-Digest: ndAyhRyBdMNlGFL5o82uW5OS+cX8BQZY+XJelTuqNss=
+
+Name: codechicken/lib/render/shader/ShaderProgram$UniformEntry$MatrixU
+ niformEntry.class
+SHA-256-Digest: zoZPkyzMsLxapU8XFIXSNdNY3/VyUuNyMbLL8VyMAaM=
+
+Name: codechicken/lib/render/CCRenderState.class
+SHA-256-Digest: z5hIcNoFX8cFHsjKAsS9eiH+jhfsOHNRHMk9ZlfDIkA=
+
+Name: codechicken/lib/render/consumer/CCRSConsumer.class
+SHA-256-Digest: t8o1BDzkk6xH/gZseRjkQhGpvQMTkBVsaacW3bXBGsc=
+
+Name: codechicken/lib/data/MCDataOutput.class
+SHA-256-Digest: JCPaoXA2brbtgoUHgxP7mXrhcbFXelRsQfHAw3eYnTA=
+
+Name: codechicken/lib/model/bakery/key/IBlockStateKeyGenerator.class
+SHA-256-Digest: NEuhlo7300Z1VXV2g9zV0e26Hviy3fak24B9ZRveLn0=
+
+Name: codechicken/lib/internal/CCLLog.class
+SHA-256-Digest: DSy0YAB1u5jcZq/f6Wr7AUdNhs+zp4TccVoMIg3Byd8=
+
+Name: codechicken/lib/annotation/FunctionProxy.class
+SHA-256-Digest: oKgfWLQtpEZ8gR5gwyhZjXrGl+CGVTWAGz2QPnKU+Vw=
+
+Name: codechicken/lib/inventory/ItemKey.class
+SHA-256-Digest: udEfsemjhGeqxg2pDmusUtB32G/mxAcn0STPg2hXyqQ=
+
+Name: codechicken/lib/packet/PacketCustom$CustomInboundHandler.class
+SHA-256-Digest: 2PdCH6TJLZwKkszC0z7lkudztHDZMCt+2sJiO2xWgYw=
+
+Name: codechicken/lib/model/loader/blockstate/CCBlockStateLoader$Weigh
+ tedRandomModel.class
+SHA-256-Digest: SmL9FaxTvs5cOEjtm2zoYFcEm80lhctBXC4JYBY1F9o=
+
+Name: codechicken/lib/packet/PacketCustom$HandshakeInboundHandler.clas
+ s
+SHA-256-Digest: UDsFpk5Mbur+9GwZOsiDYwEmTiognDwv4HA1bBtNuio=
+
+Name: codechicken/lib/util/ResourceUtils.class
+SHA-256-Digest: LAIwV34sP+IqvucbW1vgHJJfRzh5oZQwYi0DDZw70sc=
+
+Name: codechicken/lib/inventory/InventoryRange.class
+SHA-256-Digest: UcvMVLbnfLdV4M41chKFmthptEYtNmnWDUeXEB3grqw=
+
+Name: codechicken/lib/vec/AxisCycle$2.class
+SHA-256-Digest: lJS8j9I3gYqSAoGzI7d277fN+PM1jTtDyF3NUt0Z2dk=
+
+Name: codechicken/lib/model/bakery/ModelErrorStateProperty.class
+SHA-256-Digest: QKPjClVeOooISp42PPVSo+cEsdAxiUf6oo/KBm1ELMw=
+
+Name: codechicken/lib/model/loader/blockstate/CCVariant$Deserializer.c
+ lass
+SHA-256-Digest: /lkBjP80G1N6pfqPSIA+33x0oMkkSA+mtwTfAevzQAM=
+
+Name: codechicken/lib/inventory/container/IContainerSyncVar.class
+SHA-256-Digest: V1wXDVxKxb7j1PKdW0kitlR+/30a+qhHvDdVByDElIA=
+
+Name: codechicken/lib/render/pipeline/IVertexOperation.class
+SHA-256-Digest: jsskkWjnCkGIVzW0BieYFQ/MYYAaJl0nzFl7QppsnnA=
+
+Name: codechicken/lib/util/BlockUtils.class
+SHA-256-Digest: pJ76ED8uYeii8WePOQIDbPh5nsVzA8GAI6LyE/RrJbc=
+
+Name: codechicken/lib/render/pipeline/attribute/SideAttribute$1.class
+SHA-256-Digest: b7e52v1ChRnxOSmvHPKMP0JQf6CCLKCXl/TkdoDXpzw=
+
+Name: codechicken/lib/config/ConfigTag$IConfigType.class
+SHA-256-Digest: 1zy/+7OSOAe54sPbZ1Qptf9qCfaNHNzMpAYVvPSC+Wg=
+
+Name: codechicken/lib/thread/ProfileTimer.class
+SHA-256-Digest: mOhfvquXvJ4Ju4EM517msy9tk7cRdD5VqTI8lB9DDF0=
+
+Name: codechicken/lib/configuration/ConfigParseException.class
+SHA-256-Digest: PsfPGEgBCwUoIE8FhXpCIRwVvYQdTCYIzrLfoXQDVFs=
+
+Name: codechicken/lib/vec/Rotation.class
+SHA-256-Digest: iU0DZWGclEkcQL+0ixrvULyIONI5Y1QNo8zNF0Vlvsg=
+
+Name: codechicken/lib/render/CCModel$PositionNormalEntry.class
+SHA-256-Digest: 3JP1/HF+Sm3IxS+yLkj53hE7d91lShmSbb7CSmLorWU=
+
+Name: codechicken/lib/util/CommonUtils.class
+SHA-256-Digest: pzemW7M9LChh2RTL5kKqZ1YvkMqOIHQ/p518V4OgD2U=
+
+Name: codechicken/lib/model/bakery/ModelErrorStateProperty$ErrorState.
+ class
+SHA-256-Digest: gODUBvKBasK0G8GIlJCNVCwaKDtAQsSLyI6LXjNGQjY=
+
+Name: codechicken/lib/gui/GuiWidget.class
+SHA-256-Digest: wO5PhnCL41t4DDuFYaIAnDXI4kawE7dA514ORH5ksfE=
+
+Name: codechicken/lib/internal/ModDescriptionEnhancer.class
+SHA-256-Digest: KAAvC+n1AR7oU7ApjV+mL3pp/WcUspjWOkgFqR8p8EQ=
+
+Name: codechicken/lib/texture/CustomIResource.class
+SHA-256-Digest: 5i1e4O2AuyGgy9ew7SaCmBl6cFXun6Irn4sfl7FKOBE=
+
+Name: codechicken/lib/model/bakery/sub/SubItemStackKeyGenerator.class
+SHA-256-Digest: A1QyEe4CYqarSH1ewBhuwm61Ra3y3wBUraKSUniLUBo=
+
+Name: META-INF/ccl_at.cfg
+SHA-256-Digest: 7v4GXQZR3eLeagu+wNy/iyc6/fo24jQFGhARj+H3sok=
+
+Name: codechicken/lib/config/ConfigTagParent$TagOrderComparator.class
+SHA-256-Digest: 6zLRq4W9R8E0i1jbXju1Nxxq0Pc1HjaeH5bk90QF/sE=
+
+Name: codechicken/lib/inventory/InventoryCopy.class
+SHA-256-Digest: hg6ZgTrC5N6BocdbElJHbyzadThU2q0BhjisRFIvPeA=
+
+Name: codechicken/lib/vec/Rotation$1.class
+SHA-256-Digest: FS7DJ1eya7zLBa/JDO3XLqGjFDvREO9RxxW5zP+1Ob8=
+
+Name: codechicken/lib/colour/Colour.class
+SHA-256-Digest: QAXBSPWMEjrWmEXQx+ytwUQ3xAA+xxQSx3cwjrY78sU=
+
+Name: codechicken/lib/model/bakedmodels/ModelProperties.class
+SHA-256-Digest: o0eIwnGJiuw11JAnrv+dp7P3Y+KHlDK3pDsg13ewu00=
+
+Name: codechicken/lib/render/item/map/MapRenderRegistry.class
+SHA-256-Digest: +mbacCu1WDjzFIXpdfq8faaAJynjcMHanowOUPggl1I=
+
+Name: codechicken/lib/inventory/container/ContainerSynchronised.class
+SHA-256-Digest: bm2oEGNPRC6I8BXyIQEIMmVt5H9/C99frWJhESmV2YQ=
+
+Name: codechicken/lib/lighting/PlanarLightMatrix.class
+SHA-256-Digest: fqm1PWmspJULLOxu11A/6A/YlQKfdsPj+BRZbZAcMzk=
+
+Name: codechicken/lib/texture/SpriteSheetManager$SpriteSheet.class
+SHA-256-Digest: E56O6Mh3oIjJpdEQXRe8MrpK0GWmF+qCM62VZMgAzSY=
+
+Name: codechicken/lib/inventory/container/SlotDummy.class
+SHA-256-Digest: EudHEkGHR0QT5nUl8nqSJ2s8yKNZ8BjlOJ5KsYuisoY=
+
+Name: codechicken/lib/command/ServerCommand.class
+SHA-256-Digest: KAtk+Brb0yq61voGZeFyrBUs0E61UnNQvyfKxXQPfQQ=
+
+Name: codechicken/lib/util/ItemNBTUtils.class
+SHA-256-Digest: /D2WF9xMw6hxXmxz4P/zA+dnq5T7eXFxpwZ9jQUmXFo=
+
+Name: codechicken/lib/internal/command/client/highlight/HighlightComma
+ ndBase.class
+SHA-256-Digest: r340uir0UhU1ufaj3lA4AN70G7eVnWBeINWMZtkXQZo=
+
+Name: codechicken/lib/inventory/InventoryUtils.class
+SHA-256-Digest: vnKzz5azH/xjzX8A7IrFX5HyUQv+hiaAcSlKKPefznk=
+
+Name: codechicken/lib/util/DirectoryWalker.class
+SHA-256-Digest: /igCEeubPqE97pRnctMO/HXNVq7PPwaPyoPdywKDFJQ=
+
+Name: codechicken/lib/model/ModelRegistryHelper$IModelBakeCallback.cla
+ ss
+SHA-256-Digest: taN2ATUe//Oz1GzGXslVWtnSD7A5IC09MrCP38Og1qA=
+
+Name: codechicken/lib/model/PlanarFaceBakery.class
+SHA-256-Digest: NGR7zdKSoooIdBhQ81Sk5Uu3FC8DMr/JSaQj78Qkx8s=
+
+Name: codechicken/lib/model/ModelRegistryHelper.class
+SHA-256-Digest: DTPgtwN/V8M3/UvDJ6qiATKqmEEGTHYaV5FcHKvwBRY=
+
+Name: codechicken/lib/render/RenderUtils.class
+SHA-256-Digest: tOF9h1B/TwCUjbIpUDbgN37SrorrHVRsYMNrT/RZOag=
+
+Name: codechicken/lib/model/bakedmodels/ModelProperties$PerspectivePro
+ perties.class
+SHA-256-Digest: uHlxmfQuZyHp2Ix6G+82akP8PJyy+Av8YOmCniyu+ys=
+
+Name: codechicken/lib/texture/TextureSpecial.class
+SHA-256-Digest: 5X7Tyirsh9kf+x9F+q525LwlgTmK9eaOvIf4j9+vebI=
+
+Name: codechicken/lib/model/loader/bakery/BakeryModel.class
+SHA-256-Digest: Dh2+XkJSDwQGpUCF3EhZwhsxVOZPdlQndmrB3xhy1xk=
+
+Name: codechicken/lib/render/pipeline/ColourMultiplier.class
+SHA-256-Digest: JP/y1iHXgroFC90xbmd2tVDizWXrcGg+Pk1c4ROD+uM=
+
+Name: codechicken/lib/render/shader/ShaderProgram$UniformEntry$FloatUn
+ iformEntry.class
+SHA-256-Digest: ZcHwGiyMnVgbGPqAQTm7LugNAOnHF1zNuKt1tO4X+Kw=
+
+Name: codechicken/lib/world/WorldExtension.class
+SHA-256-Digest: t89o3g3FCelg9doVOKFM+SVc+ZlzErtGIooQgHYPl8w=
+
+Name: codechicken/lib/model/modelbase/CCModelBase.class
+SHA-256-Digest: aKAGP5PPZucbdtHgbHW+FWvg9gBmtqhvat6upKlyF04=
+
+Name: codechicken/lib/render/BlockRenderer$BlockFace.class
+SHA-256-Digest: MxKcsdOf55HAcB8h4NxMruYnV7fTbzn+CFvMl1oVebQ=
+
+Name: codechicken/lib/render/pipeline/attribute/ColourAttribute$1.clas
+ s
+SHA-256-Digest: R8XmYJbmACrXlqESyF36qPS9yxidaLdP2dG+RKDGAtQ=
+
+Name: codechicken/lib/internal/command/client/ItemInfoCommand.class
+SHA-256-Digest: YM4oIaQJ/pVlh+x7CsnmAXp4DCPqfMUwyObTCW2xbN0=
+
+Name: codechicken/lib/command/help/IBetterHelpCommand.class
+SHA-256-Digest: yt3i+pUogeK+31X8WvTKDsUsEuND8IaRaojMmmvfq0g=
+
+Name: codechicken/lib/util/LangProxy.class
+SHA-256-Digest: AYHfpNEy22W6rrklMwNHCGcGxA3MmK6LuNjvl8XaSus=
+
+Name: codechicken/lib/item/ItemMultiType.class
+SHA-256-Digest: yr+m3GyY2zusYA0q4y1Tvf1jy2CJBaPed814s7/SuxE=
+
+Name: codechicken/lib/util/LambdaUtils.class
+SHA-256-Digest: Q69QRd61r/UIo5SSDWC/XuwUwANl47SJvibdbH/T3fc=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedByteArrayPropert
+ y.class
+SHA-256-Digest: gFUzoHK0cL9uvJ0rf+U29/hPEyPwKTdCBnrSA3GYRxc=
+
+Name: codechicken/lib/internal/command/client/highlight/HighlightSetCo
+ mmand.class
+SHA-256-Digest: NMvBBBv7d7Fv0QvYiUJAn+JLb/AoyjmAgKJgqnFI6ZM=
+
+Name: codechicken/lib/render/pipeline/attribute/AttributeKey$Attribute
+ KeyRegistry.class
+SHA-256-Digest: 6uQksuJoBnO6zbOlhHuc9pQXzIaahz35IlsSQ0xs+f4=
+
+Name: codechicken/lib/colour/EnumColour.class
+SHA-256-Digest: +pucrlYXR6JT4sKMw4QUNbfhIzsyuBeyM4multMajxE=
+
+Name: codechicken/lib/packet/PacketCustom$ServerInboundHandler.class
+SHA-256-Digest: bfknTn2KArjOFPZ5Wo8wpwvb+OI3//Slxzo8MNQp13Q=
+
+Name: codechicken/lib/inventory/container/ContainerExtended.class
+SHA-256-Digest: 7+6VdTmLdrxMMw6b+sqCwSGNY7LnQZqMloOvXMr/CAM=
+
+Name: codechicken/lib/internal/command/client/highlight/HighlightToggl
+ eDepthCommand.class
+SHA-256-Digest: bITbMKXZx59mATLk31+L5gmRF1q6RahXQJTnNy6huxo=
+
+Name: codechicken/lib/model/bakery/generation/IBlockBakery.class
+SHA-256-Digest: NScLuK2TIhb+wYFYsAmM4LaFap/ngDhM/GkitnK7F6I=
+
+Name: codechicken/lib/annotation/ProxyInjector.class
+SHA-256-Digest: hlgvsGPgwmXXeEPNxhw+gs7OTVBLEYKfYqmNApsJoOA=
+
+Name: codechicken/lib/block/property/unlisted/UnlistedTileEntityProper
+ ty.class
+SHA-256-Digest: WIZVLraF3hSs+cjSNRFvp52SC6KjV6jTJJGiVsQq13k=
+
+Name: codechicken/lib/packet/ICustomPacketHandler$IClientPacketHandler
+ .class
+SHA-256-Digest: HUHY9bjuyysvUp8lcp08gqsYmqnUeYjNWsDewUbuCG0=
+
+Name: codechicken/lib/util/Copyable.class
+SHA-256-Digest: g1cd/xPQy9+DuHxClnYL75ZxtWw4C9cIW6ImlJoN3cQ=
+
+Name: codechicken/lib/model/bakery/sub/SubBlockBakery.class
+SHA-256-Digest: wdlpWleEzO3Ty0YoVZl/BoDhno1RL/1x2/CBWChNqNE=
+
+Name: codechicken/lib/model/loader/blockstate/CCBlockStateLoader$1.cla
+ ss
+SHA-256-Digest: GeqoFcOgiwhDv4K/cECXiMCfM4Yiw8372WpnOcVs38g=
+
+Name: codechicken/lib/model/bakedmodels/WrappedItemModel$1.class
+SHA-256-Digest: BlTxsEfQ9l7CBDBQK6HGteeSIJeNrH4WbM4CIIYSJ8s=
+
+Name: codechicken/lib/block/property/PropertyString.class
+SHA-256-Digest: cZzQa09A8OKaBG1G3BYHixx/hBhYZ3JUo5BJRzVLo/A=
+
+Name: codechicken/lib/data/MCDataInputStream.class
+SHA-256-Digest: YqawkeMmG7kT6v8ICEAqICbdA+Gr2xb64LJGa3BXcXI=
+
+Name: codechicken/lib/world/WorldExtensionManager$WorldExtensionEventH
+ andler.class
+SHA-256-Digest: X9Ck2zqKT3edrqLfwBcqCvbWynmS65nEc6nQRXYdWEo=
+

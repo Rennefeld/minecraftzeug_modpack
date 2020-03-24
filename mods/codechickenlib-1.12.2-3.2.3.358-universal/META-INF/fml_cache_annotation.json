@@ -1,0 +1,981 @@
+{
+  "codechicken/lib/CodeChickenLib": {
+    "name": "codechicken/lib/CodeChickenLib",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "codechicken/lib/CodeChickenLib",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12]"
+          },
+          "certificateFingerprint": {
+            "value": "f1850c39b2516232a2108a7bd84d1cb5df93b261"
+          },
+          "dependencies": {
+            "value": "required-after:forge@[14.23.4.2718,)"
+          },
+          "modid": {
+            "value": "codechickenlib"
+          },
+          "name": {
+            "value": "CodeChicken Lib"
+          },
+          "updateJSON": {
+            "value": "http://chickenbones.net/Files/notification/version.php?query\u003dforge\u0026version\u003d1.12\u0026file\u003dCodeChickenLib"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "codechicken.lib.internal.proxy.ProxyClient"
+          },
+          "serverSide": {
+            "value": "codechicken.lib.internal.proxy.Proxy"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "onServerStartingEvent(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V"
+      }
+    ]
+  },
+  "codechicken/lib/annotation/FunctionProxy": {
+    "name": "codechicken/lib/annotation/FunctionProxy",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "codechicken/lib/block/property/unlisted/UnlistedPropertyBase": {
+    "name": "codechicken/lib/block/property/unlisted/UnlistedPropertyBase",
+    "interfaces": [
+      "net/minecraftforge/common/property/IUnlistedProperty"
+    ]
+  },
+  "codechicken/lib/colour/Colour": {
+    "name": "codechicken/lib/colour/Colour",
+    "interfaces": [
+      "codechicken/lib/util/Copyable"
+    ]
+  },
+  "codechicken/lib/colour/Colour$1": {
+    "name": "codechicken/lib/colour/Colour$1",
+    "interfaces": [
+      "codechicken/lib/config/ConfigTag$IConfigType"
+    ]
+  },
+  "codechicken/lib/colour/EnumColour": {
+    "name": "codechicken/lib/colour/EnumColour",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "codechicken/lib/command/CoreCommand": {
+    "name": "codechicken/lib/command/CoreCommand",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "codechicken/lib/command/help/IBetterHelpCommand": {
+    "name": "codechicken/lib/command/help/IBetterHelpCommand",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "codechicken/lib/config/ConfigTagParent$TagOrderComparator": {
+    "name": "codechicken/lib/config/ConfigTagParent$TagOrderComparator",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "codechicken/lib/configuration/ConfigSyncManager": {
+    "name": "codechicken/lib/configuration/ConfigSyncManager",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "codechicken/lib/configuration/ConfigSyncManager",
+        "values": {
+          "modid": {
+            "value": "codechickenlib"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onClientDisconnected(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientDisconnectionFromServerEvent;)V"
+      }
+    ]
+  },
+  "codechicken/lib/configuration/ConfigTag": {
+    "name": "codechicken/lib/configuration/ConfigTag",
+    "interfaces": [
+      "codechicken/lib/configuration/IConfigTag"
+    ]
+  },
+  "codechicken/lib/configuration/IConfigTag": {
+    "name": "codechicken/lib/configuration/IConfigTag",
+    "interfaces": [
+      "codechicken/lib/configuration/IConfigValue",
+      "codechicken/lib/configuration/ISerializableConfigTag"
+    ]
+  },
+  "codechicken/lib/data/MCDataInputWrapper": {
+    "name": "codechicken/lib/data/MCDataInputWrapper",
+    "interfaces": [
+      "codechicken/lib/data/MCDataInput"
+    ]
+  },
+  "codechicken/lib/data/MCDataOutputWrapper": {
+    "name": "codechicken/lib/data/MCDataOutputWrapper",
+    "interfaces": [
+      "codechicken/lib/data/MCDataOutput"
+    ]
+  },
+  "codechicken/lib/fluid/ExtendedFluidTank": {
+    "name": "codechicken/lib/fluid/ExtendedFluidTank",
+    "interfaces": [
+      "net/minecraftforge/fluids/IFluidTank"
+    ]
+  },
+  "codechicken/lib/fluid/FluidUtils": {
+    "name": "codechicken/lib/fluid/FluidUtils",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/capabilities/CapabilityInject;",
+        "target": "FLUID_HANDLER",
+        "value": {
+          "type": "CLASS",
+          "value": "Lnet/minecraftforge/fluids/capability/IFluidHandler;"
+        }
+      }
+    ]
+  },
+  "codechicken/lib/gui/GuiScreenWidget": {
+    "name": "codechicken/lib/gui/GuiScreenWidget",
+    "interfaces": [
+      "codechicken/lib/gui/IGuiActionListener"
+    ]
+  },
+  "codechicken/lib/internal/CCLLog": {
+    "name": "codechicken/lib/internal/CCLLog",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "codechicken/lib/internal/CCLLog",
+        "values": {
+          "modid": {
+            "value": "codechickenlib"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTickEnd(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V",
+        "values": {
+          "priority": {
+            "type": "ENUM",
+            "value": "Lnet/minecraftforge/fml/common/eventhandler/EventPriority;/LOWEST"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTickEnd(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ServerTickEvent;)V",
+        "values": {
+          "priority": {
+            "type": "ENUM",
+            "value": "Lnet/minecraftforge/fml/common/eventhandler/EventPriority;/LOWEST"
+          }
+        }
+      }
+    ]
+  },
+  "codechicken/lib/internal/ExceptionMessageEventHandler": {
+    "name": "codechicken/lib/internal/ExceptionMessageEventHandler",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "codechicken/lib/internal/ExceptionMessageEventHandler",
+        "values": {
+          "modid": {
+            "value": "codechickenlib"
+          },
+          "value": {
+            "type": "ENUM",
+            "values": [
+              "Lnet/minecraftforge/fml/relauncher/Side;/CLIENT"
+            ]
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "clientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "codechicken/lib/internal/HighlightHandler": {
+    "name": "codechicken/lib/internal/HighlightHandler",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "codechicken/lib/internal/HighlightHandler",
+        "values": {
+          "modid": {
+            "value": "codechickenlib"
+          },
+          "value": {
+            "type": "ENUM",
+            "values": [
+              "Lnet/minecraftforge/fml/relauncher/Side;/CLIENT"
+            ]
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "renderWorldLast(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "codechicken/lib/internal/command/client/CCLClientCommand": {
+    "name": "codechicken/lib/internal/command/client/CCLClientCommand",
+    "interfaces": [
+      "net/minecraftforge/client/IClientCommand",
+      "codechicken/lib/command/help/IHelpCommandHost"
+    ]
+  },
+  "codechicken/lib/internal/command/client/ItemInfoCommand": {
+    "name": "codechicken/lib/internal/command/client/ItemInfoCommand",
+    "interfaces": [
+      "codechicken/lib/command/help/IBetterHelpCommand"
+    ]
+  },
+  "codechicken/lib/internal/command/client/ModelLocationInfoCommand": {
+    "name": "codechicken/lib/internal/command/client/ModelLocationInfoCommand",
+    "interfaces": [
+      "codechicken/lib/command/help/IBetterHelpCommand"
+    ]
+  },
+  "codechicken/lib/internal/command/client/NukeDynamicBakeryCacheCommand": {
+    "name": "codechicken/lib/internal/command/client/NukeDynamicBakeryCacheCommand",
+    "interfaces": [
+      "codechicken/lib/command/help/IBetterHelpCommand"
+    ]
+  },
+  "codechicken/lib/internal/command/client/highlight/HighlightClearCommand": {
+    "name": "codechicken/lib/internal/command/client/highlight/HighlightClearCommand",
+    "interfaces": [
+      "codechicken/lib/command/help/IBetterHelpCommand"
+    ]
+  },
+  "codechicken/lib/internal/command/client/highlight/HighlightCommandBase": {
+    "name": "codechicken/lib/internal/command/client/highlight/HighlightCommandBase",
+    "interfaces": [
+      "codechicken/lib/command/help/IBetterHelpCommand",
+      "codechicken/lib/command/help/IHelpCommandHost"
+    ]
+  },
+  "codechicken/lib/internal/command/client/highlight/HighlightInfoCommand": {
+    "name": "codechicken/lib/internal/command/client/highlight/HighlightInfoCommand",
+    "interfaces": [
+      "codechicken/lib/command/help/IBetterHelpCommand"
+    ]
+  },
+  "codechicken/lib/internal/command/client/highlight/HighlightSetCommand": {
+    "name": "codechicken/lib/internal/command/client/highlight/HighlightSetCommand",
+    "interfaces": [
+      "codechicken/lib/command/help/IBetterHelpCommand"
+    ]
+  },
+  "codechicken/lib/internal/command/client/highlight/HighlightToggleDepthCommand": {
+    "name": "codechicken/lib/internal/command/client/highlight/HighlightToggleDepthCommand",
+    "interfaces": [
+      "codechicken/lib/command/help/IBetterHelpCommand"
+    ]
+  },
+  "codechicken/lib/internal/network/ClientPacketHandler": {
+    "name": "codechicken/lib/internal/network/ClientPacketHandler",
+    "interfaces": [
+      "codechicken/lib/packet/ICustomPacketHandler$IClientPacketHandler"
+    ]
+  },
+  "codechicken/lib/internal/network/ServerHandshakeHandler": {
+    "name": "codechicken/lib/internal/network/ServerHandshakeHandler",
+    "interfaces": [
+      "codechicken/lib/packet/IHandshakeHandler"
+    ]
+  },
+  "codechicken/lib/inventory/InventoryCopy": {
+    "name": "codechicken/lib/inventory/InventoryCopy",
+    "interfaces": [
+      "net/minecraft/inventory/IInventory"
+    ]
+  },
+  "codechicken/lib/inventory/InventoryNBT": {
+    "name": "codechicken/lib/inventory/InventoryNBT",
+    "interfaces": [
+      "net/minecraft/inventory/IInventory"
+    ]
+  },
+  "codechicken/lib/inventory/InventorySimple": {
+    "name": "codechicken/lib/inventory/InventorySimple",
+    "interfaces": [
+      "net/minecraft/inventory/IInventory",
+      "net/minecraftforge/common/capabilities/ICapabilityProvider"
+    ]
+  },
+  "codechicken/lib/inventory/InventoryUtils": {
+    "name": "codechicken/lib/inventory/InventoryUtils",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/capabilities/CapabilityInject;",
+        "target": "ITEM_HANDLER",
+        "value": {
+          "type": "CLASS",
+          "value": "Lnet/minecraftforge/items/IItemHandler;"
+        }
+      }
+    ]
+  },
+  "codechicken/lib/inventory/ItemKey": {
+    "name": "codechicken/lib/inventory/ItemKey",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "codechicken/lib/inventory/MappedInventoryAccess": {
+    "name": "codechicken/lib/inventory/MappedInventoryAccess",
+    "interfaces": [
+      "net/minecraft/inventory/IInventory"
+    ]
+  },
+  "codechicken/lib/inventory/container/ContainerExtended": {
+    "name": "codechicken/lib/inventory/container/ContainerExtended",
+    "interfaces": [
+      "net/minecraft/inventory/IContainerListener"
+    ]
+  },
+  "codechicken/lib/inventory/container/GuiContainerWidget": {
+    "name": "codechicken/lib/inventory/container/GuiContainerWidget",
+    "interfaces": [
+      "codechicken/lib/gui/IGuiActionListener"
+    ]
+  },
+  "codechicken/lib/inventory/container/IntegerSync": {
+    "name": "codechicken/lib/inventory/container/IntegerSync",
+    "interfaces": [
+      "codechicken/lib/inventory/container/IContainerSyncVar"
+    ]
+  },
+  "codechicken/lib/lighting/LC": {
+    "name": "codechicken/lib/lighting/LC",
+    "interfaces": [
+      "codechicken/lib/util/Copyable"
+    ]
+  },
+  "codechicken/lib/lighting/LightMatrix": {
+    "name": "codechicken/lib/lighting/LightMatrix",
+    "interfaces": [
+      "codechicken/lib/render/pipeline/IVertexOperation"
+    ]
+  },
+  "codechicken/lib/lighting/LightModel": {
+    "name": "codechicken/lib/lighting/LightModel",
+    "interfaces": [
+      "codechicken/lib/render/pipeline/IVertexOperation"
+    ]
+  },
+  "codechicken/lib/lighting/PlanarLightModel": {
+    "name": "codechicken/lib/lighting/PlanarLightModel",
+    "interfaces": [
+      "codechicken/lib/render/pipeline/IVertexOperation"
+    ]
+  },
+  "codechicken/lib/lighting/SimpleBrightnessModel": {
+    "name": "codechicken/lib/lighting/SimpleBrightnessModel",
+    "interfaces": [
+      "codechicken/lib/render/pipeline/IVertexOperation"
+    ]
+  },
+  "codechicken/lib/model/DummyBakedModel": {
+    "name": "codechicken/lib/model/DummyBakedModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "codechicken/lib/model/ModelRegistryHelper": {
+    "name": "codechicken/lib/model/ModelRegistryHelper",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onModelBake(Lnet/minecraftforge/client/event/ModelBakeEvent;)V"
+      }
+    ]
+  },
+  "codechicken/lib/model/bakedmodels/AbstractBakedPropertiesModel": {
+    "name": "codechicken/lib/model/bakedmodels/AbstractBakedPropertiesModel",
+    "interfaces": [
+      "codechicken/lib/render/particle/IModelParticleProvider",
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "codechicken/lib/model/bakedmodels/ModelProperties": {
+    "name": "codechicken/lib/model/bakedmodels/ModelProperties",
+    "interfaces": [
+      "codechicken/lib/util/Copyable"
+    ]
+  },
+  "codechicken/lib/model/bakedmodels/OverrideListModel": {
+    "name": "codechicken/lib/model/bakedmodels/OverrideListModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "codechicken/lib/model/bakedmodels/WrappedItemModel": {
+    "name": "codechicken/lib/model/bakedmodels/WrappedItemModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "codechicken/lib/model/bakery/CCBakeryModel": {
+    "name": "codechicken/lib/model/bakery/CCBakeryModel",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel",
+      "codechicken/lib/render/particle/IModelParticleProvider"
+    ]
+  },
+  "codechicken/lib/model/bakery/SimpleBlockRenderer": {
+    "name": "codechicken/lib/model/bakery/SimpleBlockRenderer",
+    "interfaces": [
+      "codechicken/lib/model/bakery/generation/ISimpleBlockBakery",
+      "codechicken/lib/texture/TextureUtils$IIconRegister"
+    ]
+  },
+  "codechicken/lib/model/bakery/generation/IBlockBakery": {
+    "name": "codechicken/lib/model/bakery/generation/IBlockBakery",
+    "interfaces": [
+      "codechicken/lib/model/bakery/generation/IItemBakery"
+    ]
+  },
+  "codechicken/lib/model/bakery/generation/IItemBakery": {
+    "name": "codechicken/lib/model/bakery/generation/IItemBakery",
+    "interfaces": [
+      "codechicken/lib/model/bakery/generation/IBakery"
+    ]
+  },
+  "codechicken/lib/model/bakery/generation/ILayeredBlockBakery": {
+    "name": "codechicken/lib/model/bakery/generation/ILayeredBlockBakery",
+    "interfaces": [
+      "codechicken/lib/model/bakery/generation/IBlockBakery"
+    ]
+  },
+  "codechicken/lib/model/bakery/generation/ISimpleBlockBakery": {
+    "name": "codechicken/lib/model/bakery/generation/ISimpleBlockBakery",
+    "interfaces": [
+      "codechicken/lib/model/bakery/generation/IBlockBakery"
+    ]
+  },
+  "codechicken/lib/model/bakery/sub/SubBlockBakery": {
+    "name": "codechicken/lib/model/bakery/sub/SubBlockBakery",
+    "interfaces": [
+      "codechicken/lib/model/bakery/generation/ILayeredBlockBakery",
+      "codechicken/lib/texture/TextureUtils$IIconRegister"
+    ]
+  },
+  "codechicken/lib/model/bakery/sub/SubBlockStateKeyGenerator": {
+    "name": "codechicken/lib/model/bakery/sub/SubBlockStateKeyGenerator",
+    "interfaces": [
+      "codechicken/lib/model/bakery/key/IBlockStateKeyGenerator"
+    ]
+  },
+  "codechicken/lib/model/bakery/sub/SubItemStackKeyGenerator": {
+    "name": "codechicken/lib/model/bakery/sub/SubItemStackKeyGenerator",
+    "interfaces": [
+      "codechicken/lib/model/bakery/key/IItemStackKeyGenerator"
+    ]
+  },
+  "codechicken/lib/model/forgemodel/CCMultiModel": {
+    "name": "codechicken/lib/model/forgemodel/CCMultiModel",
+    "interfaces": [
+      "net/minecraftforge/client/model/IModel"
+    ]
+  },
+  "codechicken/lib/model/forgemodel/WrappedIModel": {
+    "name": "codechicken/lib/model/forgemodel/WrappedIModel",
+    "interfaces": [
+      "net/minecraftforge/client/model/IModel"
+    ]
+  },
+  "codechicken/lib/model/loader/bakery/BakeryModel": {
+    "name": "codechicken/lib/model/loader/bakery/BakeryModel",
+    "interfaces": [
+      "net/minecraftforge/client/model/IModel"
+    ]
+  },
+  "codechicken/lib/model/loader/bakery/CCBakeryModelLoader": {
+    "name": "codechicken/lib/model/loader/bakery/CCBakeryModelLoader",
+    "interfaces": [
+      "net/minecraftforge/client/model/ICustomModelLoader"
+    ]
+  },
+  "codechicken/lib/model/loader/blockstate/CCBlockStateLoader": {
+    "name": "codechicken/lib/model/loader/blockstate/CCBlockStateLoader",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTextureStitchPre(Lnet/minecraftforge/client/event/TextureStitchEvent$Pre;)V",
+        "values": {
+          "priority": {
+            "type": "ENUM",
+            "value": "Lnet/minecraftforge/fml/common/eventhandler/EventPriority;/HIGHEST"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onModelBake(Lnet/minecraftforge/client/event/ModelBakeEvent;)V",
+        "values": {
+          "priority": {
+            "type": "ENUM",
+            "value": "Lnet/minecraftforge/fml/common/eventhandler/EventPriority;/HIGHEST"
+          }
+        }
+      }
+    ]
+  },
+  "codechicken/lib/model/loader/blockstate/CCBlockStateLoader$VariantLoader": {
+    "name": "codechicken/lib/model/loader/blockstate/CCBlockStateLoader$VariantLoader",
+    "interfaces": [
+      "net/minecraftforge/client/model/ICustomModelLoader"
+    ]
+  },
+  "codechicken/lib/model/loader/blockstate/CCBlockStateLoader$WeightedRandomModel": {
+    "name": "codechicken/lib/model/loader/blockstate/CCBlockStateLoader$WeightedRandomModel",
+    "interfaces": [
+      "net/minecraftforge/client/model/IModel"
+    ]
+  },
+  "codechicken/lib/model/loader/blockstate/CCVariant": {
+    "name": "codechicken/lib/model/loader/blockstate/CCVariant",
+    "interfaces": [
+      "codechicken/lib/util/Copyable"
+    ]
+  },
+  "codechicken/lib/model/loader/blockstate/CCVariant$Deserializer": {
+    "name": "codechicken/lib/model/loader/blockstate/CCVariant$Deserializer",
+    "interfaces": [
+      "com/google/gson/JsonDeserializer"
+    ]
+  },
+  "codechicken/lib/model/loader/blockstate/ITransformFactory$IStandardTransformFactory": {
+    "name": "codechicken/lib/model/loader/blockstate/ITransformFactory$IStandardTransformFactory",
+    "interfaces": [
+      "codechicken/lib/model/loader/blockstate/ITransformFactory"
+    ]
+  },
+  "codechicken/lib/model/loader/cube/CCCubeLoader": {
+    "name": "codechicken/lib/model/loader/cube/CCCubeLoader",
+    "interfaces": [
+      "net/minecraftforge/client/model/ICustomModelLoader"
+    ]
+  },
+  "codechicken/lib/model/loader/cube/CCModelCube": {
+    "name": "codechicken/lib/model/loader/cube/CCModelCube",
+    "interfaces": [
+      "net/minecraftforge/client/model/IModel"
+    ]
+  },
+  "codechicken/lib/packet/ICustomPacketHandler$IClientPacketHandler": {
+    "name": "codechicken/lib/packet/ICustomPacketHandler$IClientPacketHandler",
+    "interfaces": [
+      "codechicken/lib/packet/ICustomPacketHandler"
+    ]
+  },
+  "codechicken/lib/packet/ICustomPacketHandler$IServerPacketHandler": {
+    "name": "codechicken/lib/packet/ICustomPacketHandler$IServerPacketHandler",
+    "interfaces": [
+      "codechicken/lib/packet/ICustomPacketHandler"
+    ]
+  },
+  "codechicken/lib/packet/PacketCustom": {
+    "name": "codechicken/lib/packet/PacketCustom",
+    "interfaces": [
+      "codechicken/lib/data/MCDataInput",
+      "codechicken/lib/data/MCDataOutput"
+    ]
+  },
+  "codechicken/lib/packet/PacketCustom$ClientInboundHandler": {
+    "name": "codechicken/lib/packet/PacketCustom$ClientInboundHandler",
+    "interfaces": [
+      "codechicken/lib/packet/PacketCustom$CustomHandler"
+    ]
+  },
+  "codechicken/lib/packet/PacketCustom$CustomInboundHandler": {
+    "name": "codechicken/lib/packet/PacketCustom$CustomInboundHandler",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lio/netty/channel/ChannelHandler$Sharable;",
+        "target": "codechicken/lib/packet/PacketCustom$CustomInboundHandler"
+      }
+    ]
+  },
+  "codechicken/lib/packet/PacketCustom$ServerInboundHandler": {
+    "name": "codechicken/lib/packet/PacketCustom$ServerInboundHandler",
+    "interfaces": [
+      "codechicken/lib/packet/PacketCustom$CustomHandler"
+    ]
+  },
+  "codechicken/lib/raytracer/DistanceRayTraceResult": {
+    "name": "codechicken/lib/raytracer/DistanceRayTraceResult",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "codechicken/lib/recipe/AbstractConfigConditionalFactory": {
+    "name": "codechicken/lib/recipe/AbstractConfigConditionalFactory",
+    "interfaces": [
+      "net/minecraftforge/common/crafting/IConditionFactory"
+    ]
+  },
+  "codechicken/lib/recipe/AbstractForgeConfigConditionalFactory": {
+    "name": "codechicken/lib/recipe/AbstractForgeConfigConditionalFactory",
+    "interfaces": [
+      "net/minecraftforge/common/crafting/IConditionFactory"
+    ]
+  },
+  "codechicken/lib/recipe/ConditionalIngredientFactory": {
+    "name": "codechicken/lib/recipe/ConditionalIngredientFactory",
+    "interfaces": [
+      "net/minecraftforge/common/crafting/IIngredientFactory"
+    ]
+  },
+  "codechicken/lib/recipe/OreExistsConditionalFactory": {
+    "name": "codechicken/lib/recipe/OreExistsConditionalFactory",
+    "interfaces": [
+      "net/minecraftforge/common/crafting/IConditionFactory"
+    ]
+  },
+  "codechicken/lib/reflect/ObfMapping$MCPRemapper": {
+    "name": "codechicken/lib/reflect/ObfMapping$MCPRemapper",
+    "interfaces": [
+      "com/google/common/io/LineProcessor"
+    ]
+  },
+  "codechicken/lib/render/BlockRenderer$BlockFace": {
+    "name": "codechicken/lib/render/BlockRenderer$BlockFace",
+    "interfaces": [
+      "codechicken/lib/render/pipeline/IVertexSource"
+    ]
+  },
+  "codechicken/lib/render/BlockRenderer$FullBlock": {
+    "name": "codechicken/lib/render/BlockRenderer$FullBlock",
+    "interfaces": [
+      "codechicken/lib/render/pipeline/IVertexSource"
+    ]
+  },
+  "codechicken/lib/render/CCIconRegister": {
+    "name": "codechicken/lib/render/CCIconRegister",
+    "interfaces": [
+      "codechicken/lib/texture/TextureUtils$IIconRegister"
+    ]
+  },
+  "codechicken/lib/render/CCModel": {
+    "name": "codechicken/lib/render/CCModel",
+    "interfaces": [
+      "codechicken/lib/render/pipeline/IVertexSource",
+      "codechicken/lib/util/Copyable"
+    ]
+  },
+  "codechicken/lib/render/CCModelState": {
+    "name": "codechicken/lib/render/CCModelState",
+    "interfaces": [
+      "net/minecraftforge/common/model/IModelState"
+    ]
+  },
+  "codechicken/lib/render/CCQuad": {
+    "name": "codechicken/lib/render/CCQuad",
+    "interfaces": [
+      "codechicken/lib/util/Copyable",
+      "net/minecraftforge/client/model/pipeline/IVertexProducer"
+    ]
+  },
+  "codechicken/lib/render/CCRenderEventHandler": {
+    "name": "codechicken/lib/render/CCRenderEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "clientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "renderTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onBlockHighlight(Lnet/minecraftforge/client/event/DrawBlockHighlightEvent;)V",
+        "values": {
+          "priority": {
+            "type": "ENUM",
+            "value": "Lnet/minecraftforge/fml/common/eventhandler/EventPriority;/LOW"
+          }
+        }
+      }
+    ]
+  },
+  "codechicken/lib/render/block/CCBlockRendererDispatcher": {
+    "name": "codechicken/lib/render/block/CCBlockRendererDispatcher",
+    "interfaces": [
+      "codechicken/lib/texture/TextureUtils$IIconRegister"
+    ]
+  },
+  "codechicken/lib/render/consumer/CCRSConsumer": {
+    "name": "codechicken/lib/render/consumer/CCRSConsumer",
+    "interfaces": [
+      "net/minecraftforge/client/model/pipeline/IVertexConsumer"
+    ]
+  },
+  "codechicken/lib/render/consumer/UnpackingVertexConsumer": {
+    "name": "codechicken/lib/render/consumer/UnpackingVertexConsumer",
+    "interfaces": [
+      "net/minecraftforge/client/model/pipeline/IVertexConsumer"
+    ]
+  },
+  "codechicken/lib/render/item/IItemRenderer": {
+    "name": "codechicken/lib/render/item/IItemRenderer",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "codechicken/lib/render/item/map/MapRenderRegistry": {
+    "name": "codechicken/lib/render/item/map/MapRenderRegistry",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onItemFrameRender(Lnet/minecraftforge/client/event/RenderItemInFrameEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "renderFirstPersonHand(Lnet/minecraftforge/client/event/RenderSpecificHandEvent;)V"
+      }
+    ]
+  },
+  "codechicken/lib/render/particle/IModelParticleProvider": {
+    "name": "codechicken/lib/render/particle/IModelParticleProvider",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "codechicken/lib/render/pipeline/ColourMultiplier": {
+    "name": "codechicken/lib/render/pipeline/ColourMultiplier",
+    "interfaces": [
+      "codechicken/lib/render/pipeline/IVertexOperation"
+    ]
+  },
+  "codechicken/lib/render/pipeline/VertexAttribute": {
+    "name": "codechicken/lib/render/pipeline/VertexAttribute",
+    "interfaces": [
+      "codechicken/lib/render/pipeline/IVertexOperation"
+    ]
+  },
+  "codechicken/lib/texture/CustomIResource": {
+    "name": "codechicken/lib/texture/CustomIResource",
+    "interfaces": [
+      "net/minecraft/client/resources/IResource"
+    ]
+  },
+  "codechicken/lib/texture/IWorldBlockTextureProvider": {
+    "name": "codechicken/lib/texture/IWorldBlockTextureProvider",
+    "interfaces": [
+      "codechicken/lib/texture/IItemBlockTextureProvider"
+    ]
+  },
+  "codechicken/lib/texture/SpriteSheetManager$SpriteSheet": {
+    "name": "codechicken/lib/texture/SpriteSheetManager$SpriteSheet",
+    "interfaces": [
+      "codechicken/lib/texture/TextureUtils$IIconRegister"
+    ]
+  },
+  "codechicken/lib/texture/TextureSpecial": {
+    "name": "codechicken/lib/texture/TextureSpecial",
+    "interfaces": [
+      "codechicken/lib/texture/TextureUtils$IIconRegister"
+    ]
+  },
+  "codechicken/lib/texture/TextureUtils": {
+    "name": "codechicken/lib/texture/TextureUtils",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "textureLoad(Lnet/minecraftforge/client/event/TextureStitchEvent$Pre;)V"
+      }
+    ]
+  },
+  "codechicken/lib/util/TransformUtils$1": {
+    "name": "codechicken/lib/util/TransformUtils$1",
+    "interfaces": [
+      "codechicken/lib/model/loader/blockstate/ITransformFactory$IStandardTransformFactory"
+    ]
+  },
+  "codechicken/lib/vec/Cuboid6": {
+    "name": "codechicken/lib/vec/Cuboid6",
+    "interfaces": [
+      "codechicken/lib/util/Copyable"
+    ]
+  },
+  "codechicken/lib/vec/Matrix4": {
+    "name": "codechicken/lib/vec/Matrix4",
+    "interfaces": [
+      "codechicken/lib/util/Copyable"
+    ]
+  },
+  "codechicken/lib/vec/Quat": {
+    "name": "codechicken/lib/vec/Quat",
+    "interfaces": [
+      "codechicken/lib/util/Copyable"
+    ]
+  },
+  "codechicken/lib/vec/Transformation": {
+    "name": "codechicken/lib/vec/Transformation",
+    "interfaces": [
+      "codechicken/lib/render/pipeline/IVertexOperation"
+    ]
+  },
+  "codechicken/lib/vec/Vector3": {
+    "name": "codechicken/lib/vec/Vector3",
+    "interfaces": [
+      "codechicken/lib/util/Copyable"
+    ]
+  },
+  "codechicken/lib/vec/Vertex5": {
+    "name": "codechicken/lib/vec/Vertex5",
+    "interfaces": [
+      "codechicken/lib/util/Copyable"
+    ]
+  },
+  "codechicken/lib/vec/uv/UV": {
+    "name": "codechicken/lib/vec/uv/UV",
+    "interfaces": [
+      "codechicken/lib/util/Copyable"
+    ]
+  },
+  "codechicken/lib/vec/uv/UVTransformation": {
+    "name": "codechicken/lib/vec/uv/UVTransformation",
+    "interfaces": [
+      "codechicken/lib/render/pipeline/IVertexOperation"
+    ]
+  },
+  "codechicken/lib/world/TileChunkLoadHook": {
+    "name": "codechicken/lib/world/TileChunkLoadHook",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onChunkLoad(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V"
+      }
+    ]
+  },
+  "codechicken/lib/world/WorldExtensionManager$WorldExtensionEventHandler": {
+    "name": "codechicken/lib/world/WorldExtensionManager$WorldExtensionEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onChunkDataLoad(Lnet/minecraftforge/event/world/ChunkDataEvent$Load;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onChunkDataSave(Lnet/minecraftforge/event/world/ChunkDataEvent$Save;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onChunkLoad(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onChunkUnLoad(Lnet/minecraftforge/event/world/ChunkEvent$Unload;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onWorldSave(Lnet/minecraftforge/event/world/WorldEvent$Save;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onWorldLoad(Lnet/minecraftforge/event/world/WorldEvent$Load;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onWorldUnLoad(Lnet/minecraftforge/event/world/WorldEvent$Unload;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onChunkWatch(Lnet/minecraftforge/event/world/ChunkWatchEvent$Watch;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onChunkUnWatch(Lnet/minecraftforge/event/world/ChunkWatchEvent$UnWatch;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "clientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "serverTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$WorldTickEvent;)V"
+      }
+    ]
+  }
+}
